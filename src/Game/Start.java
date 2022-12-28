@@ -27,17 +27,8 @@ public class Start { ;
         menu.add(pauseMenuItem);
         menu.add(resumeMenuItem);
         menuBar.add(menu);
-        JButton btnLine = new JButton("Replay");
-        btnLine.setBackground(new Color(255, 255, 255));
-        btnLine.setForeground(new Color(0, 0, 0));
-        btnLine.addActionListener(e -> {
-            ad.stop();
-            ad.playMusic(adPath);
-            myWorld.replay();
-                }
-        );
-        btnLine.setBounds(839, 69, 91, 31);
-        menuBar.add( btnLine);
+
+
 
         if(first) {
             ad.playMusic(adPath);
@@ -62,7 +53,7 @@ public class Start { ;
                 gameController.pause();
                 ad.stop();
                 log.help().info("the game is paused");
-                btnLine.setEnabled(false);
+
             }
         });
         resumeMenuItem.addActionListener(new ActionListener() {
@@ -70,7 +61,7 @@ public class Start { ;
                 gameController.resume();
                 ad.resume();
                 log.help().info("the game is resumed");
-                btnLine.setEnabled(true);
+
             }
         });
     }
