@@ -8,7 +8,6 @@ import Game.Shapes.ImageObject;
 import Game.Shapes.Shape;
 import Game.Utils.ObjectPool;
 import Game.Utils.Score;
-import Game.Utils.Caretaker;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 
@@ -37,13 +36,11 @@ public class MyWorld implements World {
     private final double scaleWidthRod = 5/18.0;
     private final double scaleBtnRods = 2;
     private int clowns;
-    private boolean replayFlag = false;
     private final long deadTime = 10*1000;
-    private Caretaker caretaker;
+
     private Start start;
     Logging log=new Logging();
     public MyWorld(int screenWidth, int screenHeight, int activeCount, double averageVelocity, int diffShapes, int waveTime, int shelfLevel, int clowns, int maxScore, Start start) {
-        this.caretaker =  new Caretaker(this);
         width = screenWidth;
         height = screenHeight;
         this.activeCount = activeCount;
@@ -108,11 +105,6 @@ public class MyWorld implements World {
             start.setLevel(10);
             return false;
         }
-        if(replayFlag) {
-            replay();
-            return true;
-        }
-        caretaker.addMemento(save());
         long timeSinceLastWave = System.currentTimeMillis() - lastWave;
         List<GameObject> toRemove = new ArrayList<>();
         for(GameObject m : moving){
@@ -131,7 +123,6 @@ public class MyWorld implements World {
             }
         }
         if(timeSinceLastWave > waveTime && activeCount > 0) {
-            caretaker.addMemento(this.save());
             int spawnFirst = Math.min(rand.nextInt(activeCount)+1,activeCount);
             activeCount -= spawnFirst;
             for (int i = 0; i < spawnFirst; i++)
@@ -179,12 +170,7 @@ public class MyWorld implements World {
         m.cw.addToWorld();
         score.setScore(m.scoreVal);
     }
-    public void replay(){
-        if(!replayFlag) {
-            startTime = System.currentTimeMillis();
-        }
-        replayFlag = caretaker.replay();
-    }
+
     public class Memento{
         private final List<GameObject> moving = new LinkedList<GameObject>();
         private final ClownWrapper cw;
