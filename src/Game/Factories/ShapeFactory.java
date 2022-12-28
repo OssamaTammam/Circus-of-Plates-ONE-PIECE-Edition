@@ -3,7 +3,7 @@ package Game.Factories;
 import Game.Loader.ShapesLoader;
 import Game.Shapes.Shape;
 import Game.Shapes.ShapeState;
-import Game.logging;
+import Game.Logging;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.*;
@@ -19,7 +19,7 @@ public class ShapeFactory {
     private Map<String, BufferedImage> mp; // Flyweight Design Pattern
     private ShapesLoader sL;
     public static ShapeFactory instance;
-    logging log=new logging();
+    Logging log=new Logging();
     /**
      * Singleton Design Pattern
      * @return Single instance of this class

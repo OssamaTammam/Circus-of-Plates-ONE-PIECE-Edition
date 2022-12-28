@@ -1,12 +1,12 @@
 package Game.Utils;
 
-import Game.logging;
+import Game.Logging;
 
 import java.util.Observable;
 import java.util.Observer;
 
 public class Score implements Observer {
-    logging log = new logging();
+    Logging log = new Logging();
     int score = 0;
     int maxScore;
     boolean won;

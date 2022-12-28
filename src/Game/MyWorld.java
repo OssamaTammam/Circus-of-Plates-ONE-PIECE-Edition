@@ -41,7 +41,7 @@ public class MyWorld implements World {
     private final long deadTime = 10*1000;
     private Caretaker caretaker;
     private Start start;
-    logging log=new logging();
+    Logging log=new Logging();
     public MyWorld(int screenWidth, int screenHeight, int activeCount, double averageVelocity, int diffShapes, int waveTime, int shelfLevel, int clowns, int maxScore, Start start) {
         this.caretaker =  new Caretaker(this);
         width = screenWidth;
