@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-28T16:01:20.507821400Z</date>
+  <millis>1672243280507</millis>
+  <nanos>821400</nanos>
+  <sequence>0</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:20.514802700Z</date>
+  <millis>1672243280514</millis>
+  <nanos>802700</nanos>
+  <sequence>1</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:20.514802700Z</date>
+  <millis>1672243280514</millis>
+  <nanos>802700</nanos>
+  <sequence>2</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:20.515799300Z</date>
+  <millis>1672243280515</millis>
+  <nanos>799300</nanos>
+  <sequence>3</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:20.515799300Z</date>
+  <millis>1672243280515</millis>
+  <nanos>799300</nanos>
+  <sequence>4</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:20.515799300Z</date>
+  <millis>1672243280515</millis>
+  <nanos>799300</nanos>
+  <sequence>5</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.209405200Z</date>
+  <millis>1672243285209</millis>
+  <nanos>405200</nanos>
+  <sequence>6</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got DeepPlate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.527820300Z</date>
+  <millis>1672243285527</millis>
+  <nanos>820300</nanos>
+  <sequence>7</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.527820300Z</date>
+  <millis>1672243285527</millis>
+  <nanos>820300</nanos>
+  <sequence>8</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.528819100Z</date>
+  <millis>1672243285528</millis>
+  <nanos>819100</nanos>
+  <sequence>9</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.717885900Z</date>
+  <millis>1672243285717</millis>
+  <nanos>885900</nanos>
+  <sequence>10</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.811974400Z</date>
+  <millis>1672243285811</millis>
+  <nanos>974400</nanos>
+  <sequence>11</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got DeepPlate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:25.843889Z</date>
+  <millis>1672243285843</millis>
+  <nanos>889000</nanos>
+  <sequence>12</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:26.320282600Z</date>
+  <millis>1672243286320</millis>
+  <nanos>282600</nanos>
+  <sequence>13</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:27.268035700Z</date>
+  <millis>1672243287268</millis>
+  <nanos>35700</nanos>
+  <sequence>14</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:30.974675600Z</date>
+  <millis>1672243290974</millis>
+  <nanos>675600</nanos>
+  <sequence>15</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>DeepPlate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:31.101467300Z</date>
+  <millis>1672243291101</millis>
+  <nanos>467300</nanos>
+  <sequence>16</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>DeepPlate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:31.261007800Z</date>
+  <millis>1672243291261</millis>
+  <nanos>7800</nanos>
+  <sequence>17</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:34.688754Z</date>
+  <millis>1672243294688</millis>
+  <nanos>754000</nanos>
+  <sequence>18</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:34.689753200Z</date>
+  <millis>1672243294689</millis>
+  <nanos>753200</nanos>
+  <sequence>19</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:35.541999200Z</date>
+  <millis>1672243295541</millis>
+  <nanos>999200</nanos>
+  <sequence>20</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:35.920392800Z</date>
+  <millis>1672243295920</millis>
+  <nanos>392800</nanos>
+  <sequence>21</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:36.873927800Z</date>
+  <millis>1672243296873</millis>
+  <nanos>927800</nanos>
+  <sequence>22</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:40.384171100Z</date>
+  <millis>1672243300384</millis>
+  <nanos>171100</nanos>
+  <sequence>23</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>DeepPlate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:41.114399500Z</date>
+  <millis>1672243301114</millis>
+  <nanos>399500</nanos>
+  <sequence>24</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>DeepPlate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:41.210699300Z</date>
+  <millis>1672243301210</millis>
+  <nanos>699300</nanos>
+  <sequence>25</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:41.211697Z</date>
+  <millis>1672243301211</millis>
+  <nanos>697000</nanos>
+  <sequence>26</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got DeepPlate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.327596100Z</date>
+  <millis>1672243305327</millis>
+  <nanos>596100</nanos>
+  <sequence>27</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.327596100Z</date>
+  <millis>1672243305327</millis>
+  <nanos>596100</nanos>
+  <sequence>28</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.329589900Z</date>
+  <millis>1672243305329</millis>
+  <nanos>589900</nanos>
+  <sequence>29</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.329589900Z</date>
+  <millis>1672243305329</millis>
+  <nanos>589900</nanos>
+  <sequence>30</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got DeepPlate</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.581650400Z</date>
+  <millis>1672243305581</millis>
+  <nanos>650400</nanos>
+  <sequence>31</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.644515Z</date>
+  <millis>1672243305644</millis>
+  <nanos>515000</nanos>
+  <sequence>32</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:01:45.991591800Z</date>
+  <millis>1672243305991</millis>
+  <nanos>591800</nanos>
+  <sequence>33</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:17.119360200Z</date>
+  <millis>1672243337119</millis>
+  <nanos>360200</nanos>
+  <sequence>34</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:17.119360200Z</date>
+  <millis>1672243337119</millis>
+  <nanos>360200</nanos>
+  <sequence>35</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:17.120356800Z</date>
+  <millis>1672243337120</millis>
+  <nanos>356800</nanos>
+  <sequence>36</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:17.120356800Z</date>
+  <millis>1672243337120</millis>
+  <nanos>356800</nanos>
+  <sequence>37</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:18.391175300Z</date>
+  <millis>1672243338391</millis>
+  <nanos>175300</nanos>
+  <sequence>38</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have the same color</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:18.391175300Z</date>
+  <millis>1672243338391</millis>
+  <nanos>175300</nanos>
+  <sequence>39</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:18.391175300Z</date>
+  <millis>1672243338391</millis>
+  <nanos>175300</nanos>
+  <sequence>40</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:18.392170600Z</date>
+  <millis>1672243338392</millis>
+  <nanos>170600</nanos>
+  <sequence>41</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>similarTo</method>
+  <thread>28</thread>
+  <message>shapes have different colors</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:18.392170600Z</date>
+  <millis>1672243338392</millis>
+  <nanos>170600</nanos>
+  <sequence>42</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Plate</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:20.199022Z</date>
+  <millis>1672243340199</millis>
+  <nanos>22000</nanos>
+  <sequence>43</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>DeepPlate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:22.133579100Z</date>
+  <millis>1672243342133</millis>
+  <nanos>579100</nanos>
+  <sequence>44</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:22.512111500Z</date>
+  <millis>1672243342512</millis>
+  <nanos>111500</nanos>
+  <sequence>45</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:22.638900Z</date>
+  <millis>1672243342638</millis>
+  <nanos>900000</nanos>
+  <sequence>46</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:23.466472600Z</date>
+  <millis>1672243343466</millis>
+  <nanos>472600</nanos>
+  <sequence>47</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+<record>
+  <date>2022-12-28T16:02:23.466472600Z</date>
+  <millis>1672243343466</millis>
+  <nanos>472600</nanos>
+  <sequence>48</sequence>
+  <logger>eg.edu.alexu.csd.oop.Circus.logging</logger>
+  <level>INFO</level>
+  <class>eg.edu.alexu.csd.oop.Circus.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Plate is broken</message>
+</record>
+</log>
