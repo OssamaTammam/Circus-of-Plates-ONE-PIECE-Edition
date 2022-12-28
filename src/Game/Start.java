@@ -16,7 +16,7 @@ public class Start { ;
     public static GameEngine.GameController gameController;
 
     public void call(){
-        logging log=new logging();
+        Logging log=new Logging();
         JMenuBar menuBar = new JMenuBar();;
         JMenu menu = new JMenu("File");
         JMenuItem newMenuItem = new JMenuItem("New");

@@ -6,7 +6,7 @@ import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-public class logging {
+public class Logging {
     private static Logger logger ;
     private static void Log_Method() {
         LogManager.getLogManager().reset();
@@ -29,7 +29,7 @@ public class logging {
     }
     public  Logger help(){
         if(logger==null) {
-            logger =Logger.getLogger(logging.class.getName());
+            logger =Logger.getLogger(Logging.class.getName());
             Log_Method();
         }
         return logger;
