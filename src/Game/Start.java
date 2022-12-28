@@ -70,9 +70,9 @@ public class Start { ;
         if(level == 1)
             myWorld= new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 8, 4, 2, 5, 1, 1, 3, this);
         else if(level == 2)
-            myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 15, 7, 3, 5, 3, 2, 5, this);
+            myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 15, 7, 3, 5, 2, 2, 5, this);
         else if(level == 3)
-            myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 20, 10, 3, 4, 4, 3, 7, this);
+            myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 20, 10, 3, 4, 3, 3, 7, this);
         else {
             ad.stop();
             Main.frame.setVisible(true);
