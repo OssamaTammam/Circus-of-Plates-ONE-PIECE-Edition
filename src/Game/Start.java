@@ -67,11 +67,11 @@ public class Start { ;
     }
     public void setLevel(int level){
         this.level = level;
-        if(level == 3)
+        if(level == 1)
             myWorld= new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 8, 4, 2, 5, 1, 1, 3, this);
-        else if(level == 5)
+        else if(level == 2)
             myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 15, 7, 3, 5, 3, 2, 5, this);
-        else if(level == 7)
+        else if(level == 3)
             myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 20, 10, 3, 4, 4, 3, 7, this);
         else {
             ad.stop();

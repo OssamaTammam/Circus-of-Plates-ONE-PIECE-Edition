@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-12-28T17:44:31.478512600Z</date>
-  <millis>1672249471478</millis>
-  <nanos>512600</nanos>
+  <date>2022-12-28T17:50:03.835748900Z</date>
+  <millis>1672249803835</millis>
+  <nanos>748900</nanos>
   <sequence>0</sequence>
   <logger>Game.logging</logger>
   <level>INFO</level>
@@ -14,21 +14,21 @@
   <message>Plate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-28T17:44:31.483499100Z</date>
-  <millis>1672249471483</millis>
-  <nanos>499100</nanos>
+  <date>2022-12-28T17:50:03.840735600Z</date>
+  <millis>1672249803840</millis>
+  <nanos>735600</nanos>
   <sequence>1</sequence>
   <logger>Game.logging</logger>
   <level>INFO</level>
   <class>Game.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-28T17:44:31.483499100Z</date>
-  <millis>1672249471483</millis>
-  <nanos>499100</nanos>
+  <date>2022-12-28T17:50:03.840735600Z</date>
+  <millis>1672249803840</millis>
+  <nanos>735600</nanos>
   <sequence>2</sequence>
   <logger>Game.logging</logger>
   <level>INFO</level>
@@ -38,15 +38,39 @@
   <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-28T17:44:31.484496600Z</date>
-  <millis>1672249471484</millis>
-  <nanos>496600</nanos>
+  <date>2022-12-28T17:50:03.841732800Z</date>
+  <millis>1672249803841</millis>
+  <nanos>732800</nanos>
   <sequence>3</sequence>
   <logger>Game.logging</logger>
   <level>INFO</level>
   <class>Game.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T17:50:03.841732800Z</date>
+  <millis>1672249803841</millis>
+  <nanos>732800</nanos>
+  <sequence>4</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T17:50:03.841732800Z</date>
+  <millis>1672249803841</millis>
+  <nanos>732800</nanos>
+  <sequence>5</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
 </record>
 </log>

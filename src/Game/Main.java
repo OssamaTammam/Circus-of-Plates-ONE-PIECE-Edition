@@ -33,24 +33,47 @@ public class Main {
             e.printStackTrace();
         }
         frame.getContentPane().add(lblNewLabel);
-        JComboBox comboBox = new JComboBox();
-        comboBox.setBounds(10, 85, 126, 27);
-        comboBox.setForeground(new Color(255, 255, 0));
-        comboBox.setBackground(new Color(51, 102, 153));
-        comboBox.setMaximumRowCount(4);
-        comboBox.setModel(new DefaultComboBoxModel(new String[] {"Choose Level ","Easy", "Medium", "Hard"}));
-        comboBox.setToolTipText("Levels");
-        comboBox.setSelectedIndex(0);
-        frame.getContentPane().add(comboBox);
+        JButton EasyButton = new JButton("Easy");
+        EasyButton.setBounds(50, 85, 126, 27);
+        EasyButton.setForeground(new Color(255, 255, 0));
+        EasyButton.setBackground(new Color(51, 102, 153));
+
+        JButton MeduimButton = new JButton("Medium");
+        MeduimButton.setBounds(50, 125, 126, 27);
+        MeduimButton.setForeground(new Color(255, 255, 0));
+        MeduimButton.setBackground(new Color(51, 102, 153));
+
+        JButton HardButton = new JButton("Hard");
+        HardButton.setBounds(50, 165, 126, 27);
+        HardButton.setForeground(new Color(255, 255, 0));
+        HardButton.setBackground(new Color(51, 102, 153));
+
+        frame.getContentPane().add(EasyButton,0);
+        frame.getContentPane().add(MeduimButton, 0);
+        frame.getContentPane().add(HardButton, 0);
+
         frame.setVisible(true);
-        comboBox.addActionListener(new ActionListener() {
+        EasyButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                currentLevel=(String)comboBox.getSelectedItem();
-                if((!currentLevel.equals(""))&&(!currentLevel.equals("Choose Level "))){
-                    frame.setVisible(false);
-                    start.setLevel(levels.get(currentLevel));
-                }
+                frame.setVisible(false);
+                start.setLevel(1);
+
+            }
+        });
+        MeduimButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                frame.setVisible(false);
+                start.setLevel(2);
+
+            }
+        });
+        HardButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                frame.setVisible(false);
+                start.setLevel(3);
+
             }
         });
     }
+
 }
