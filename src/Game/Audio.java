@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus;
+package Game;
 
 import javax.sound.sampled.*;
 import java.io.File;

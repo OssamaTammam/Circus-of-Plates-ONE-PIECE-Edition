@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus.Observer;
+package Game.Observer;
 
 import java.util.Observable;
 

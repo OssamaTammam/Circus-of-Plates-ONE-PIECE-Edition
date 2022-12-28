@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus.Shapes;
+package Game.Shapes;
 
 public class ShapeState {
     private double vX;

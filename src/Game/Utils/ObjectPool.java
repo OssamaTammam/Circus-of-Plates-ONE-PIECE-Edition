@@ -1,8 +1,8 @@
-package eg.edu.alexu.csd.oop.Circus.Utils;
+package Game.Utils;
 
-import eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Shape;
-import eg.edu.alexu.csd.oop.Circus.Shapes.ShapeState;
+import Game.Factories.ShapeFactory;
+import Game.Shapes.Shape;
+import Game.Shapes.ShapeState;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -63,12 +63,14 @@ public class ObjectPool {
         inUse.put(sh, now);
         return sh;
     }
+
     private double getRandomDouble(double min, double max) {
         Random r = new Random();
         double randomValue = min + (max - min) * r.nextDouble();
         return randomValue;
     }
-    public void releaseShape(Shape sh){
+
+    public void releaseShape(Shape sh) {
         available.put(sh, System.currentTimeMillis());
         inUse.remove(sh);
     }

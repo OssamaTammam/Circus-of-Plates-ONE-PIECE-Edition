@@ -1,11 +1,10 @@
-package eg.edu.alexu.csd.oop.Circus.Shapes;
+package Game.Shapes;
 
-import eg.edu.alexu.csd.oop.Circus.MyWorld;
+import Game.MyWorld;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ClownWrapper implements GameObject, Cloneable {

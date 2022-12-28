@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus.Shapes;
+package Game.Shapes;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 

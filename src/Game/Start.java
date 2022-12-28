@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus;
+package Game;
 
 import eg.edu.alexu.csd.oop.game.GameEngine;
 import javax.swing.*;

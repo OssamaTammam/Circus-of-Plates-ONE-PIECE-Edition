@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus;
+package Game;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

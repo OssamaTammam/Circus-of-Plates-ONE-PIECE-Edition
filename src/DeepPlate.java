@@ -1,7 +1,7 @@
-import eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Cloneable;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Shape;
-import eg.edu.alexu.csd.oop.Circus.Shapes.ShapeState;
+import Game.Factories.ShapeFactory;
+import Game.Shapes.Cloneable;
+import Game.Shapes.Shape;
+import Game.Shapes.ShapeState;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;

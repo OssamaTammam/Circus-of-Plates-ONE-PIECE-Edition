@@ -1,8 +1,8 @@
-package eg.edu.alexu.csd.oop.Circus.Loader;
+package Game.Loader;
 
-import eg.edu.alexu.csd.oop.Circus.Shapes.Cloneable;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Shape;
-import eg.edu.alexu.csd.oop.Circus.Shapes.ShapeState;
+import Game.Shapes.Cloneable;
+import Game.Shapes.Shape;
+import Game.Shapes.ShapeState;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -20,11 +20,12 @@ import java.util.jar.JarInputStream;
 
 public class ShapesLoader {
     private char fS = File.separatorChar;
-    private List<Class<? extends Shape>> loadedClass;
-    private Set<Class<? extends Shape>> st;
+    private List<Class<? extends Game.Shapes.Shape>> loadedClass;
+    private Set<Class<? extends Game.Shapes.Shape>> st;
     private Map<String, BufferedImage> mp;
     private Dimension screenSize;
-    public ShapesLoader(List<Class<? extends Shape>> loadedClass, Map<String, BufferedImage> mp) {
+
+    public ShapesLoader(List<Class<? extends Game.Shapes.Shape>> loadedClass, Map<String, BufferedImage> mp) {
         this.loadedClass = loadedClass;
         st = new HashSet<>();
         this.mp = mp;
@@ -33,6 +34,7 @@ public class ShapesLoader {
 
     /**
      * Takes full class path and returns a class name with dots instead of /
+     *
      * @param fileName class path
      * @return String representing class path
      */
@@ -44,8 +46,8 @@ public class ShapesLoader {
 
     /**
      * Takes a Folder, Iterates through it and add any classes implementing the shape interface
-     * @param directory Folder File
      *
+     * @param directory Folder File
      */
     public void loadDirectory(File directory) {
         FilenameFilter filter = new FilenameFilter() {
@@ -54,11 +56,11 @@ public class ShapesLoader {
             }
         };
         File[] files = directory.listFiles(filter);
-        Set<Class<? extends Shape>> st = new HashSet<>();
+        Set<Class<? extends Game.Shapes.Shape>> st = new HashSet<>();
         for (File f : files) {
-            if(f.isDirectory()){
+            if (f.isDirectory()) {
                 loadDirectory(f);
-            }else {
+            } else {
                 loadJar(f);
             }
         }
@@ -66,12 +68,12 @@ public class ShapesLoader {
 
     /**
      * Loads all Images for the target class with specific names "Classname[0-9]*.png"
-     * @param jar Target Jar file
-     * @param cls Class object for which we need to load its images
-     * @param className Name of the class
      *
+     * @param jar       Target Jar file
+     * @param cls       Class object for which we need to load its images
+     * @param className Name of the class
      */
-    public void loadClassImages(File jar, Class<? extends Shape> cls, String className) {
+    public void loadClassImages(File jar, Class<? extends Game.Shapes.Shape> cls, String className) {
         URL[] forLoad = new URL[0];
         try {
             forLoad = new URL[]{jar.toURI().toURL()};
@@ -98,6 +100,7 @@ public class ShapesLoader {
 
     /**
      * Iterates through the jar searching for classes which implement the shape interface and loads all its resources.
+     *
      * @param jar Target Jar
      */
     public void loadJar(File jar) {
@@ -113,13 +116,13 @@ public class ShapesLoader {
                     Class<?> cls = Class.forName(className, true, loader);
                     if (!cls.isInterface()
                             && !Modifier.isAbstract(cls.getModifiers())
-                            && Shape.class.isAssignableFrom(cls)
+                            && Game.Shapes.Shape.class.isAssignableFrom(cls)
                             && Cloneable.class.isAssignableFrom(cls)
                             && !st.contains(cls)
-                            && constructorAvailableTest((Class<? extends Shape>) cls)) {
-                        loadedClass.add((Class<? extends Shape>) cls);
-                        st.add((Class<? extends Shape>) cls);
-                        loadClassImages(jar, (Class<? extends Shape>) cls, className);
+                            && constructorAvailableTest((Class<? extends Game.Shapes.Shape>) cls)) {
+                        loadedClass.add((Class<? extends Game.Shapes.Shape>) cls);
+                        st.add((Class<? extends Game.Shapes.Shape>) cls);
+                        loadClassImages(jar, (Class<? extends Game.Shapes.Shape>) cls, className);
 
                     }
                 }
@@ -138,6 +141,7 @@ public class ShapesLoader {
 
     /**
      * Checks the existence of a specific constructor
+     *
      * @param cls Target class
      * @return A boolean representing the existence of a specific  constructor
      */
@@ -155,10 +159,10 @@ public class ShapesLoader {
         }
         return true;
     }
+
     private BufferedImage createResizedCopy(Image originalImage,
-                                              int scaledWidth, int scaledHeight,
-                                              boolean preserveAlpha)
-    {
+                                            int scaledWidth, int scaledHeight,
+                                            boolean preserveAlpha) {
         int imageType = preserveAlpha ? BufferedImage.TYPE_INT_RGB : BufferedImage.TYPE_INT_ARGB;
         BufferedImage scaledBI = new BufferedImage(scaledWidth, scaledHeight, imageType);
         Graphics2D g = scaledBI.createGraphics();

@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.Circus;
+package Game;
 import java.io.IOException;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;

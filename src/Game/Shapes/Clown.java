@@ -1,8 +1,8 @@
-package eg.edu.alexu.csd.oop.Circus.Shapes;
+package Game.Shapes;
 
-import eg.edu.alexu.csd.oop.Circus.Factories.ShapeFactory;
-import eg.edu.alexu.csd.oop.Circus.MyWorld;
-import eg.edu.alexu.csd.oop.Circus.Observer.DelegatedObserver;
+import Game.Factories.ShapeFactory;
+import Game.MyWorld;
+import Game.Observer.DelegatedObserver;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;

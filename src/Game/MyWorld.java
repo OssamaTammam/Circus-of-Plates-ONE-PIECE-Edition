@@ -1,17 +1,17 @@
-package eg.edu.alexu.csd.oop.Circus;
+package Game;
 
 
-import eg.edu.alexu.csd.oop.Circus.Shapes.Cloneable;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Clown;
-import eg.edu.alexu.csd.oop.Circus.Shapes.ClownWrapper;
-import eg.edu.alexu.csd.oop.Circus.Shapes.ImageObject;
-import eg.edu.alexu.csd.oop.Circus.Shapes.Shape;
-import eg.edu.alexu.csd.oop.Circus.Utils.Caretaker;
-import eg.edu.alexu.csd.oop.Circus.Utils.ObjectPool;
-import eg.edu.alexu.csd.oop.Circus.Utils.Score;
+import Game.Shapes.Cloneable;
+import Game.Shapes.Clown;
+import Game.Shapes.ClownWrapper;
+import Game.Shapes.ImageObject;
+import Game.Shapes.Shape;
+import Game.Utils.ObjectPool;
+import Game.Utils.Score;
+import Game.Utils.Caretaker;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
-import javax.swing.*;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -191,7 +191,7 @@ public class MyWorld implements World {
         private final int scoreVal;
         private Memento(){
             for(GameObject o : MyWorld.this.moving){
-                this.moving.add(((Cloneable)o).clone());
+                this.moving.add(((Game.Shapes.Cloneable)o).clone());
             }
             cw = (ClownWrapper) ((Cloneable)control.get(0)).clone();
             scoreVal = score.getScore();

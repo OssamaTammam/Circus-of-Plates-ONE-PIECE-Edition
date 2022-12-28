@@ -1,24 +1,26 @@
-package eg.edu.alexu.csd.oop.Circus.Utils;
+package Game.Utils;
 
-import eg.edu.alexu.csd.oop.Circus.MyWorld;
+import Game.MyWorld;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 public class Caretaker {
     private int it = 0;
     private List<MyWorld.Memento> lis;
     private MyWorld world;
-    public Caretaker(MyWorld world){
+
+    public Caretaker(MyWorld world) {
         lis = new LinkedList<>();
         this.world = world;
     }
-    public void addMemento(MyWorld.Memento m){
+
+    public void addMemento(MyWorld.Memento m) {
         lis.add(m);
     }
-    public boolean replay(){
-        if(lis.isEmpty() || it == lis.size()){
+
+    public boolean replay() {
+        if (lis.isEmpty() || it == lis.size()) {
             it = 0;
             return false;
         }

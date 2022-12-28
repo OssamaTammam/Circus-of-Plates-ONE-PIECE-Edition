@@ -1,33 +1,38 @@
-package eg.edu.alexu.csd.oop.Circus.Utils;
+package Game.Utils;
 
-import eg.edu.alexu.csd.oop.Circus.logging;
+import Game.logging;
 
 import java.util.Observable;
 import java.util.Observer;
 
 public class Score implements Observer {
-    logging log=new logging();
+    logging log = new logging();
     int score = 0;
     int maxScore;
     boolean won;
-    public Score(int maxScore){
+
+    public Score(int maxScore) {
         this.maxScore = maxScore;
         won = false;
     }
+
     @Override
     public void update(Observable observable, Object o) {
         score++;
-        if(score == maxScore)
+        if (score == maxScore)
             won = true;
-        log.help().info("the score of the player is "+Integer.toString(score));
+        log.help().info("the score of the player is " + Integer.toString(score));
     }
-    public int getScore(){
+
+    public int getScore() {
         return score;
     }
-    public void setScore(int val){
+
+    public void setScore(int val) {
         score = val;
     }
-    public boolean getStatues(){
+
+    public boolean getStatues() {
         return won;
     }
 }
