@@ -59,7 +59,7 @@ public class ShapeFactory {
     /**
      * Returns a Random Shape Object with indexes between 0 and count-1
      * Note: Currently it uses default constructor (Empty)
-     * @param count Number of Different eg.edu.alexu.csd.oop.Circus.Shapes
+     * @param count Number of Different Shapes
      * @return A random Shape Object
      */
     public Game.Shapes.Shape getRandomShape(int count, int posX, int posY, int screenWidth, int screenHeight, ShapeState state){

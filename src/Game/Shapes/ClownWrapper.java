@@ -12,24 +12,29 @@ public class ClownWrapper implements GameObject, Cloneable {
     int width;
     int x;
     MyWorld world;
-    public ClownWrapper(int width, MyWorld world){
+
+    public ClownWrapper(int width, MyWorld world) {
         this.world = world;
         this.width = width;
-        this.x = (int) Math.round(width/2.0);
+        this.x = (int) Math.round(width / 2.0);
     }
-    public ClownWrapper(int x,int width, List<Clown> list, MyWorld world){
+
+    public ClownWrapper(int x, int width, List<Clown> list, MyWorld world) {
         this.x = x;
         this.width = width;
         this.world = world;
-        this.x = (int) Math.round(width/2.0);
+        this.x = (int) Math.round(width / 2.0);
         this.list = list;
     }
-    public void addClown(Clown clown){
+
+    public void addClown(Clown clown) {
         list.add(clown);
     }
-    public List<Clown> getClowns(){
+
+    public List<Clown> getClowns() {
         return list;
     }
+
     @Override
     public int getX() {
         return x;
@@ -37,17 +42,17 @@ public class ClownWrapper implements GameObject, Cloneable {
 
     @Override
     public void setX(int x) {
-        int vec = x-this.x;
+        int vec = x - this.x;
         Clown left = list.get(0);
-        Clown right = list.get(list.size()-1);
-        if(left.getMaxLeft()+(x-this.x) <= 0 ){
+        Clown right = list.get(list.size() - 1);
+        if (left.getMaxLeft() + (x - this.x) <= 0) {
             vec = (-left.getMaxLeft());
-        }else if(right.getMaxRight()+(x-this.x) >= width){
-            vec = width-(right.getMaxRight());
+        } else if (right.getMaxRight() + (x - this.x) >= width) {
+            vec = width - (right.getMaxRight());
         }
-       for(Clown c: list){
-           c.setX(c.getX()+vec);
-       }
+        for (Clown c : list) {
+            c.setX(c.getX() + vec);
+        }
         this.x += vec;
     }
 
@@ -78,18 +83,20 @@ public class ClownWrapper implements GameObject, Cloneable {
 
     @Override
     public BufferedImage[] getSpriteImages() {
-        return new BufferedImage[]{new BufferedImage(1,1,1)};
+        return new BufferedImage[]{new BufferedImage(1, 1, 1)};
     }
-    public void addToWorld(){
+
+    public void addToWorld() {
         world.getControlableObjects().add(this);
-        for(Clown c: getClowns()) {
+        for (Clown c : getClowns()) {
             c.addToWorld();
         }
     }
+
     @Override
-    public GameObject clone(){
+    public GameObject clone() {
         ArrayList<Clown> cls = new ArrayList<>();
-        for(Clown o: list) {
+        for (Clown o : list) {
             cls.add((Clown) o.clone());
         }
         return new ClownWrapper(x, width, cls, world);
