@@ -84,7 +84,7 @@ public class Start { ;
             myWorld = new MyWorld((int) (0.75*screenSize.getWidth()), (int) (0.75*screenSize.getHeight()), 20, 10, 3, 4, 4, 3, 7, this);
         else {
             ad.stop();
-            main.frame.setVisible(true);
+            Main.frame.setVisible(true);
             return;
         }
         call();

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-28T17:42:21.238259900Z</date>
+  <millis>1672249341238</millis>
+  <nanos>259900</nanos>
+  <sequence>0</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>DeepPlate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T17:42:21.243246700Z</date>
+  <millis>1672249341243</millis>
+  <nanos>246700</nanos>
+  <sequence>1</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Pot is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T17:42:21.245075600Z</date>
+  <millis>1672249341245</millis>
+  <nanos>75600</nanos>
+  <sequence>2</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Plate is Loaded</message>
+</record>
+<record>
+  <date>2022-12-28T17:42:21.245075600Z</date>
+  <millis>1672249341245</millis>
+  <nanos>75600</nanos>
+  <sequence>3</sequence>
+  <logger>Game.logging</logger>
+  <level>INFO</level>
+  <class>Game.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
+  <thread>28</thread>
+  <message>Pot is Loaded</message>
+</record>
+</log>

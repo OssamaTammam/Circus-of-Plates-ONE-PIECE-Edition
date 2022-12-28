@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class main {
+public class Main {
     private static String currentLevel="";
     public static JFrame frame;
     public static
@@ -28,7 +28,7 @@ public class main {
         lblNewLabel.setForeground(Color.BLACK);
         frame.getContentPane().setLayout(null);
         try {
-            lblNewLabel.setIcon(new ImageIcon(ImageIO.read(main.class.getClassLoader().getResourceAsStream("menu3.jpg"))));
+            lblNewLabel.setIcon(new ImageIcon(ImageIO.read(Main.class.getClassLoader().getResourceAsStream("menu3.jpg"))));
         } catch (IOException e) {
             e.printStackTrace();
         }
