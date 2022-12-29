@@ -1,9 +1,9 @@
-package Game.Factories;
+package Game.Controller.Factories;
 
-import Game.Loader.ShapesLoader;
-import Game.Shapes.Shape;
-import Game.Shapes.ShapeState;
-import Game.Logging;
+import Game.Controller.Loader.ShapesLoader;
+import Game.Model.Shapes.Shape;
+import Game.Model.Shapes.ShapeState;
+import Game.Controller.Logging;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.*;
@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.List;
 
 public class ShapeFactory {
-    private List<Class<? extends Game.Shapes.Shape>> loadedClass;
+    private List<Class<? extends Game.Model.Shapes.Shape>> loadedClass;
     private Map<String, BufferedImage> mp; // Flyweight Design Pattern
     private ShapesLoader sL;
     public static ShapeFactory instance;
@@ -62,13 +62,13 @@ public class ShapeFactory {
      * @param count Number of Different Shapes
      * @return A random Shape Object
      */
-    public Game.Shapes.Shape getRandomShape(int count, int posX, int posY, int screenWidth, int screenHeight, ShapeState state){
+    public Game.Model.Shapes.Shape getRandomShape(int count, int posX, int posY, int screenWidth, int screenHeight, ShapeState state){
         if(count > loadedClass.size()){
             log.help().finer("No enough classes");
             throw new RuntimeException("There is no enough classes for this Command");
         }
         Random rand = new Random();
-        Game.Shapes.Shape sh = null;
+        Game.Model.Shapes.Shape sh = null;
         int idx = rand.nextInt(count);
         try{
             sh = (Shape) loadedClass.get(idx).getDeclaredConstructor(new Class[]{int.class, int.class, int.class, int.class, ShapeState.class}).newInstance(

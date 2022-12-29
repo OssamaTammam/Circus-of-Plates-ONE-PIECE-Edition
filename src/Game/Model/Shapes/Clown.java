@@ -1,14 +1,13 @@
-package Game.Shapes;
+package Game.Model.Shapes;
 
-import Game.Factories.ShapeFactory;
-import Game.MyWorld;
-import Game.Observer.DelegatedObserver;
+import Game.Controller.Factories.ShapeFactory;
+import Game.View.MyWorld;
+import Game.Model.Observer.DelegatedObserver;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
 import java.util.LinkedList;
 import java.util.Observer;
-
 
 public class Clown extends ImageObject implements Cloneable {
     private LinkedList<GameObject> left;
@@ -23,14 +22,17 @@ public class Clown extends ImageObject implements Cloneable {
         left = new LinkedList<>();
         right = new LinkedList<>();
         this.myWorld = myWorld;
-        stickLeft = new ImageObject(x - (int) Math.round(0.43 * width), (int) (y - Math.round(0.20 * height)), "LeftStick.png", (int) Math.round(0.5 * width), (int) Math.round(0.5 * height));
-        stickRight = new ImageObject(x + (int) Math.round(0.92 * width), (int) (y - Math.round(0.20 * height)), "RightStick.png", (int) Math.round(0.5 * width), (int) Math.round(0.5 * height));
+        stickLeft = new ImageObject(x - (int) Math.round(0.43 * width), (int) (y - Math.round(0.20 * height)),
+                "LeftStick.png", (int) Math.round(0.5 * width), (int) Math.round(0.5 * height));
+        stickRight = new ImageObject(x + (int) Math.round(0.92 * width), (int) (y - Math.round(0.20 * height)),
+                "RightStick.png", (int) Math.round(0.5 * width), (int) Math.round(0.5 * height));
         myWorld.getConstantObjects().add(stickLeft);
         myWorld.getConstantObjects().add(stickRight);
     }
 
-    public Clown(int x, int y, BufferedImage[] sprite, ImageObject stickLeft, ImageObject stickRight, LinkedList<GameObject> left, LinkedList<GameObject> right, DelegatedObserver obs,
-                 MyWorld myWorld) {
+    public Clown(int x, int y, BufferedImage[] sprite, ImageObject stickLeft, ImageObject stickRight,
+            LinkedList<GameObject> left, LinkedList<GameObject> right, DelegatedObserver obs,
+            MyWorld myWorld) {
         super(x, y, sprite);
         this.obs = obs;
         this.stickLeft = stickLeft;
@@ -44,7 +46,8 @@ public class Clown extends ImageObject implements Cloneable {
         int midX = shape.getX() + shape.getWidth() / 2;
         int y = shape.getY() + shape.getHeight();
         if (left.isEmpty()) {
-            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2) && Math.abs(stickLeft.getY() - y) < 15) {
+            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2)
+                    && Math.abs(stickLeft.getY() - y) < 15) {
                 shape.setY(stickLeft.getY() - shape.getHeight());
                 return addShape(shape, left);
             }
@@ -60,7 +63,8 @@ public class Clown extends ImageObject implements Cloneable {
             }
         }
         if (right.isEmpty()) {
-            if ((stickRight.getX() + stickRight.getWidth() / 2) <= midX && midX <= (stickRight.getX() + stickRight.getWidth()) && Math.abs(stickRight.getY() - y) < 15) {
+            if ((stickRight.getX() + stickRight.getWidth() / 2) <= midX
+                    && midX <= (stickRight.getX() + stickRight.getWidth()) && Math.abs(stickRight.getY() - y) < 15) {
                 shape.setY(stickRight.getY() - shape.getHeight());
                 return addShape(shape, right);
             }
@@ -201,6 +205,7 @@ public class Clown extends ImageObject implements Cloneable {
         for (GameObject o : this.right) {
             cpyRight.add(((Cloneable) o).clone());
         }
-        return new Clown(x, y, images, (ImageObject) stickLeft.clone(), (ImageObject) stickRight.clone(), cpyleft, cpyRight, obs, myWorld);
+        return new Clown(x, y, images, (ImageObject) stickLeft.clone(), (ImageObject) stickRight.clone(), cpyleft,
+                cpyRight, obs, myWorld);
     }
 }

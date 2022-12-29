@@ -1,6 +1,6 @@
-package Game.Utils;
+package Game.Controller.Utils;
 
-import Game.Logging;
+import Game.Controller.Logging;
 
 import java.util.Observable;
 import java.util.Observer;

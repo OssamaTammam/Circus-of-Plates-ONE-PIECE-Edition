@@ -1,4 +1,4 @@
-package Game.Observer;
+package Game.Model.Observer;
 
 import java.util.Observable;
 

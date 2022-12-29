@@ -1,4 +1,4 @@
-package Game.Shapes;
+package Game.Model.Shapes;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 
@@ -14,7 +14,8 @@ public class ImageObject implements GameObject, Cloneable {
     protected boolean visible;
     protected int width;
     protected int height;
-    public ImageObject(int x, int y, String path, int width, int height){
+
+    public ImageObject(int x, int y, String path, int width, int height) {
         this.x = x;
         this.y = y;
         try {
@@ -26,7 +27,8 @@ public class ImageObject implements GameObject, Cloneable {
         this.height = height;
         this.width = width;
     }
-    public ImageObject( int x , int y, BufferedImage[] images){
+
+    public ImageObject(int x, int y, BufferedImage[] images) {
         this.x = x;
         this.y = y;
         this.images = images;
@@ -59,6 +61,7 @@ public class ImageObject implements GameObject, Cloneable {
     public int getWidth() {
         return width;
     }
+
     @Override
     public int getHeight() {
         return height;
@@ -73,13 +76,14 @@ public class ImageObject implements GameObject, Cloneable {
     public BufferedImage[] getSpriteImages() {
         return images;
     }
-    public void setSpriteImages(BufferedImage[] newImages){
+
+    public void setSpriteImages(BufferedImage[] newImages) {
         images = newImages;
     }
+
     protected BufferedImage createResizedCopy(Image originalImage,
-                                    int scaledWidth, int scaledHeight,
-                                    boolean preserveAlpha)
-    {
+                                              int scaledWidth, int scaledHeight,
+                                              boolean preserveAlpha) {
         int imageType = preserveAlpha ? BufferedImage.TYPE_INT_RGB : BufferedImage.TYPE_INT_ARGB;
         BufferedImage scaledBI = new BufferedImage(scaledWidth, scaledHeight, imageType);
         Graphics2D g = scaledBI.createGraphics();
@@ -90,8 +94,9 @@ public class ImageObject implements GameObject, Cloneable {
         g.dispose();
         return scaledBI;
     }
+
     @Override
-    public GameObject clone(){
+    public GameObject clone() {
         return new ImageObject(x, y, images);
     }
 }

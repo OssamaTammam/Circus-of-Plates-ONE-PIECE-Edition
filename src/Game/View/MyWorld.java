@@ -1,11 +1,12 @@
-package Game;
+package Game.View;
 
-import Game.Shapes.Clown;
-import Game.Shapes.ClownWrapper;
-import Game.Shapes.ImageObject;
-import Game.Shapes.Shape;
-import Game.Utils.ObjectPool;
-import Game.Utils.Score;
+import Game.Controller.Logging;
+import Game.Model.Shapes.Clown;
+import Game.Model.Shapes.ClownWrapper;
+import Game.Model.Shapes.ImageObject;
+import Game.Model.Shapes.Shape;
+import Game.Controller.Utils.ObjectPool;
+import Game.Controller.Utils.Score;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 
@@ -15,7 +16,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MyWorld implements World {
-    private static int MAX_TIME = 2 * 60 * 1000;    // 1 minute
+    private static int MAX_TIME =  30 * 1000;    // 1 minute
     private Score score;
     private long startTime = System.currentTimeMillis();
     private final int width;

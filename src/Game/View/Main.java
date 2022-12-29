@@ -1,4 +1,4 @@
-package Game;
+package Game.View;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

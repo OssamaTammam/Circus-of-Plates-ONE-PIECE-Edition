@@ -1,4 +1,4 @@
-package Game;
+package Game.Controller;
 
 import javax.sound.sampled.*;
 import java.io.File;

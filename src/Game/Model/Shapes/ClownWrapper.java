@@ -1,6 +1,6 @@
-package Game.Shapes;
+package Game.Model.Shapes;
 
-import Game.MyWorld;
+import Game.View.MyWorld;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
@@ -45,6 +45,7 @@ public class ClownWrapper implements GameObject, Cloneable {
         int vec = x - this.x;
         Clown left = list.get(0);
         Clown right = list.get(list.size() - 1);
+        //بتخلي سانجي تفضل ع نفس المسافة من بعضها
         if (left.getMaxLeft() + (x - this.x) <= 0) {
             vec = (-left.getMaxLeft());
         } else if (right.getMaxRight() + (x - this.x) >= width) {
@@ -101,5 +102,4 @@ public class ClownWrapper implements GameObject, Cloneable {
         }
         return new ClownWrapper(x, width, cls, world);
     }
-
 }

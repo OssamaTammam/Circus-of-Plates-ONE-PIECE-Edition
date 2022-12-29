@@ -1,7 +1,7 @@
-import Game.Factories.ShapeFactory;
-import Game.Shapes.Cloneable;
-import Game.Shapes.Shape;
-import Game.Shapes.ShapeState;
+import Game.Controller.Factories.ShapeFactory;
+import Game.Model.Shapes.Cloneable;
+import Game.Model.Shapes.Shape;
+import Game.Model.Shapes.ShapeState;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;

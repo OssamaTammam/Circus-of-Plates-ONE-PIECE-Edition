@@ -1,4 +1,4 @@
-package Game.Shapes;
+package Game.Model.Shapes;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 

@@ -1,5 +1,7 @@
-package Game;
+package Game.View;
 
+import Game.Controller.Audio;
+import Game.Controller.Logging;
 import eg.edu.alexu.csd.oop.game.GameEngine;
 import javax.swing.*;
 import java.awt.*;

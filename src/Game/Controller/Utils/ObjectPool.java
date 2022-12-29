@@ -1,8 +1,8 @@
-package Game.Utils;
+package Game.Controller.Utils;
 
-import Game.Factories.ShapeFactory;
-import Game.Shapes.Shape;
-import Game.Shapes.ShapeState;
+import Game.Controller.Factories.ShapeFactory;
+import Game.Model.Shapes.Shape;
+import Game.Model.Shapes.ShapeState;
 
 import java.util.HashMap;
 import java.util.Map;
