@@ -21,9 +21,7 @@ public class Plate implements Shape, Cloneable {
         x = posX;
         y = posY;
         this.state = state;
-        Random rand = new Random();
-        int idx = rand.nextInt(5);
-        images = new BufferedImage[]{ShapeFactory.getInstance().getImage("Plate" + ((idx != 0) ? idx : "") + ".png" )};
+        this.setRandomImage();
         width = images[0].getWidth();
         height = images[0].getHeight();
         this.screenHeight = screenHeight;
