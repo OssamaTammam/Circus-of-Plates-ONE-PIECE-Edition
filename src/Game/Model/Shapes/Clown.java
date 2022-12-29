@@ -46,7 +46,7 @@ public class Clown extends ImageObject implements Cloneable {
         int midX = shape.getX() + shape.getWidth() / 2;
         int y = shape.getY() + shape.getHeight();
         if (left.isEmpty()) {
-            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2) && y >= stickLeft.getY()) {
+            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2) && Math.abs(stickLeft.getY() - y) < 15) {
                 shape.setY(stickLeft.getY() - shape.getHeight());
                 return addShape(shape, left);
             }
@@ -55,14 +55,14 @@ public class Clown extends ImageObject implements Cloneable {
             AddToStk(left);
             GameObject top = left.peekLast();
             if (top != null) {
-                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && y >= top.getY()) {
+                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && Math.abs(top.getY() - y) < 15) {
                     shape.setY(top.getY() - shape.getHeight());
                     return addShape(shape, left);
                 }
             }
         }
         if (right.isEmpty()) {
-            if (stickRight.getX() <= midX && midX <= (stickRight.getX() + stickRight.getWidth() / 2) && y >= stickRight.getY()) {
+            if ((stickRight.getX() + stickRight.getWidth() / 2) <= midX && midX <= (stickRight.getX() + stickRight.getWidth()) && Math.abs(stickRight.getY() - y) < 15) {
                 shape.setY(stickRight.getY() - shape.getHeight());
                 return addShape(shape, right);
             }
@@ -71,7 +71,7 @@ public class Clown extends ImageObject implements Cloneable {
             AddToStk(right);
             GameObject top = right.peekLast();
             if (top != null) {
-                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && y >= top.getY()) {
+                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && Math.abs(top.getY() - y) < 15) {
                     shape.setY(top.getY() - shape.getHeight());
                     return addShape(shape, right);
                 }
