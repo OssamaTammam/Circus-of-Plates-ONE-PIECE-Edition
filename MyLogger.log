@@ -2,21 +2,21 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-12-29T19:56:28.694977800Z</date>
-  <millis>1672343788694</millis>
-  <nanos>977800</nanos>
+  <date>2022-12-29T20:01:20.510789100Z</date>
+  <millis>1672344080510</millis>
+  <nanos>789100</nanos>
   <sequence>0</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:28.700352600Z</date>
-  <millis>1672343788700</millis>
-  <nanos>352600</nanos>
+  <date>2022-12-29T20:01:20.517278700Z</date>
+  <millis>1672344080517</millis>
+  <nanos>278700</nanos>
   <sequence>1</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -26,21 +26,21 @@
   <message>Plate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:28.700352600Z</date>
-  <millis>1672343788700</millis>
-  <nanos>352600</nanos>
+  <date>2022-12-29T20:01:25.537072200Z</date>
+  <millis>1672344085537</millis>
+  <nanos>72200</nanos>
   <sequence>2</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:28.700352600Z</date>
-  <millis>1672343788700</millis>
-  <nanos>352600</nanos>
+  <date>2022-12-29T20:01:25.537072200Z</date>
+  <millis>1672344085537</millis>
+  <nanos>72200</nanos>
   <sequence>3</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -50,69 +50,69 @@
   <message>Plate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:28.701351Z</date>
-  <millis>1672343788701</millis>
-  <nanos>351000</nanos>
+  <date>2022-12-29T20:01:25.819406Z</date>
+  <millis>1672344085819</millis>
+  <nanos>406000</nanos>
   <sequence>4</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>clown got Plate</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:28.701351Z</date>
-  <millis>1672343788701</millis>
-  <nanos>351000</nanos>
+  <date>2022-12-29T20:01:27.606963100Z</date>
+  <millis>1672344087606</millis>
+  <nanos>963100</nanos>
   <sequence>5</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>clown got DeepPlate</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:33.721240900Z</date>
-  <millis>1672343793721</millis>
-  <nanos>240900</nanos>
+  <date>2022-12-29T20:01:30.555822400Z</date>
+  <millis>1672344090555</millis>
+  <nanos>822400</nanos>
   <sequence>6</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:33.722044500Z</date>
-  <millis>1672343793722</millis>
-  <nanos>44500</nanos>
+  <date>2022-12-29T20:01:30.556473Z</date>
+  <millis>1672344090556</millis>
+  <nanos>473000</nanos>
   <sequence>7</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
   <method>getRandomShape</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:34.500316900Z</date>
-  <millis>1672343794500</millis>
-  <nanos>316900</nanos>
+  <date>2022-12-29T20:01:31.122272600Z</date>
+  <millis>1672344091122</millis>
+  <nanos>272600</nanos>
   <sequence>8</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.MyWorld</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>Plate is broken</message>
+  <message>clown got DeepPlate</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.133239200Z</date>
-  <millis>1672343795133</millis>
-  <nanos>239200</nanos>
+  <date>2022-12-29T20:01:31.686588300Z</date>
+  <millis>1672344091686</millis>
+  <nanos>588300</nanos>
   <sequence>9</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -122,1606 +122,82 @@
   <message>clown got Plate</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.134199400Z</date>
-  <millis>1672343795134</millis>
-  <nanos>199400</nanos>
+  <date>2022-12-29T20:01:35.583055100Z</date>
+  <millis>1672344095583</millis>
+  <nanos>55100</nanos>
   <sequence>10</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
+  <class>Game.Controller.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
   <thread>28</thread>
-  <message>clown got Plate</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.602217300Z</date>
-  <millis>1672343795602</millis>
-  <nanos>217300</nanos>
+  <date>2022-12-29T20:01:35.583055100Z</date>
+  <millis>1672344095583</millis>
+  <nanos>55100</nanos>
   <sequence>11</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
+  <class>Game.Controller.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
   <thread>28</thread>
-  <message>clown got Plate</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.602217300Z</date>
-  <millis>1672343795602</millis>
-  <nanos>217300</nanos>
+  <date>2022-12-29T20:01:35.583055100Z</date>
+  <millis>1672344095583</millis>
+  <nanos>55100</nanos>
   <sequence>12</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
+  <class>Game.Controller.Factories.ShapeFactory</class>
+  <method>getRandomShape</method>
   <thread>28</thread>
-  <message>clown got Plate</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.603214600Z</date>
-  <millis>1672343795603</millis>
-  <nanos>214600</nanos>
+  <date>2022-12-29T20:01:35.583055100Z</date>
+  <millis>1672344095583</millis>
+  <nanos>55100</nanos>
   <sequence>13</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
+  <method>getRandomShape</method>
   <thread>28</thread>
-  <message>shapes have different colors</message>
+  <message>DeepPlate is Loaded</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:35.603214600Z</date>
-  <millis>1672343795603</millis>
-  <nanos>214600</nanos>
+  <date>2022-12-29T20:01:35.742955600Z</date>
+  <millis>1672344095742</millis>
+  <nanos>955600</nanos>
   <sequence>14</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
+  <class>Game.Controller.Factories.ShapeFactory</class>
+  <method>similarTo</method>
   <thread>28</thread>
-  <message>clown got Plate</message>
+  <message>shapes have the same color</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:38.733298600Z</date>
-  <millis>1672343798733</millis>
-  <nanos>298600</nanos>
+  <date>2022-12-29T20:01:35.742955600Z</date>
+  <millis>1672344095742</millis>
+  <nanos>955600</nanos>
   <sequence>15</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
+  <method>similarTo</method>
   <thread>28</thread>
-  <message>Plate is Loaded</message>
+  <message>shapes have the same color</message>
 </record>
 <record>
-  <date>2022-12-29T19:56:38.733298600Z</date>
-  <millis>1672343798733</millis>
-  <nanos>298600</nanos>
+  <date>2022-12-29T20:01:35.743953800Z</date>
+  <millis>1672344095743</millis>
+  <nanos>953800</nanos>
   <sequence>16</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:38.892018900Z</date>
-  <millis>1672343798892</millis>
-  <nanos>18900</nanos>
-  <sequence>17</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:38.892018900Z</date>
-  <millis>1672343798892</millis>
-  <nanos>18900</nanos>
-  <sequence>18</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:39.831557500Z</date>
-  <millis>1672343799831</millis>
-  <nanos>557500</nanos>
-  <sequence>19</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:39.832556400Z</date>
-  <millis>1672343799832</millis>
-  <nanos>556400</nanos>
-  <sequence>20</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.755466Z</date>
-  <millis>1672343803755</millis>
-  <nanos>466000</nanos>
-  <sequence>21</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.755466Z</date>
-  <millis>1672343803755</millis>
-  <nanos>466000</nanos>
-  <sequence>22</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.755466Z</date>
-  <millis>1672343803755</millis>
-  <nanos>466000</nanos>
-  <sequence>23</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.755466Z</date>
-  <millis>1672343803755</millis>
-  <nanos>466000</nanos>
-  <sequence>24</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.879372400Z</date>
-  <millis>1672343803879</millis>
-  <nanos>372400</nanos>
-  <sequence>25</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:43.879372400Z</date>
-  <millis>1672343803879</millis>
-  <nanos>372400</nanos>
-  <sequence>26</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:44.822167100Z</date>
-  <millis>1672343804822</millis>
-  <nanos>167100</nanos>
-  <sequence>27</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:44.822167100Z</date>
-  <millis>1672343804822</millis>
-  <nanos>167100</nanos>
-  <sequence>28</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:45.479173900Z</date>
-  <millis>1672343805479</millis>
-  <nanos>173900</nanos>
-  <sequence>29</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:45.479173900Z</date>
-  <millis>1672343805479</millis>
-  <nanos>173900</nanos>
-  <sequence>30</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:48.777924900Z</date>
-  <millis>1672343808777</millis>
-  <nanos>924900</nanos>
-  <sequence>31</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:48.777924900Z</date>
-  <millis>1672343808777</millis>
-  <nanos>924900</nanos>
-  <sequence>32</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:48.841832700Z</date>
-  <millis>1672343808841</millis>
-  <nanos>832700</nanos>
-  <sequence>33</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:48.841832700Z</date>
-  <millis>1672343808841</millis>
-  <nanos>832700</nanos>
-  <sequence>34</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:49.374497900Z</date>
-  <millis>1672343809374</millis>
-  <nanos>497900</nanos>
-  <sequence>35</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:49.374497900Z</date>
-  <millis>1672343809374</millis>
-  <nanos>497900</nanos>
-  <sequence>36</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:49.375495200Z</date>
-  <millis>1672343809375</millis>
-  <nanos>495200</nanos>
-  <sequence>37</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:49.375495200Z</date>
-  <millis>1672343809375</millis>
-  <nanos>495200</nanos>
-  <sequence>38</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:50.315664500Z</date>
-  <millis>1672343810315</millis>
-  <nanos>664500</nanos>
-  <sequence>39</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:50.315664500Z</date>
-  <millis>1672343810315</millis>
-  <nanos>664500</nanos>
-  <sequence>40</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:50.315664500Z</date>
-  <millis>1672343810315</millis>
-  <nanos>664500</nanos>
-  <sequence>41</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:53.799396800Z</date>
-  <millis>1672343813799</millis>
-  <nanos>396800</nanos>
-  <sequence>42</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:53.799951300Z</date>
-  <millis>1672343813799</millis>
-  <nanos>951300</nanos>
-  <sequence>43</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:53.799951300Z</date>
-  <millis>1672343813799</millis>
-  <nanos>951300</nanos>
-  <sequence>44</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:53.799951300Z</date>
-  <millis>1672343813799</millis>
-  <nanos>951300</nanos>
-  <sequence>45</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:53.799951300Z</date>
-  <millis>1672343813799</millis>
-  <nanos>951300</nanos>
-  <sequence>46</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:55.455987900Z</date>
-  <millis>1672343815455</millis>
-  <nanos>987900</nanos>
-  <sequence>47</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:55.456776600Z</date>
-  <millis>1672343815456</millis>
-  <nanos>776600</nanos>
-  <sequence>48</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:55.456776600Z</date>
-  <millis>1672343815456</millis>
-  <nanos>776600</nanos>
-  <sequence>49</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:56:55.457325700Z</date>
-  <millis>1672343815457</millis>
-  <nanos>325700</nanos>
-  <sequence>50</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.920522Z</date>
-  <millis>1672343825920</millis>
-  <nanos>522000</nanos>
-  <sequence>51</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>52</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>53</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>54</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>55</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>56</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.921053300Z</date>
-  <millis>1672343825921</millis>
-  <nanos>53300</nanos>
-  <sequence>57</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:05.922094400Z</date>
-  <millis>1672343825922</millis>
-  <nanos>94400</nanos>
-  <sequence>58</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:11.141375Z</date>
-  <millis>1672343831141</millis>
-  <nanos>375000</nanos>
-  <sequence>59</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:11.141375Z</date>
-  <millis>1672343831141</millis>
-  <nanos>375000</nanos>
-  <sequence>60</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:11.141375Z</date>
-  <millis>1672343831141</millis>
-  <nanos>375000</nanos>
-  <sequence>61</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.110682100Z</date>
-  <millis>1672343832110</millis>
-  <nanos>682100</nanos>
-  <sequence>62</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.172634500Z</date>
-  <millis>1672343832172</millis>
-  <nanos>634500</nanos>
-  <sequence>63</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>DeepPlate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.489278800Z</date>
-  <millis>1672343832489</millis>
-  <nanos>278800</nanos>
-  <sequence>64</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.489278800Z</date>
-  <millis>1672343832489</millis>
-  <nanos>278800</nanos>
-  <sequence>65</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.490304100Z</date>
-  <millis>1672343832490</millis>
-  <nanos>304100</nanos>
-  <sequence>66</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.490304100Z</date>
-  <millis>1672343832490</millis>
-  <nanos>304100</nanos>
-  <sequence>67</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.490304100Z</date>
-  <millis>1672343832490</millis>
-  <nanos>304100</nanos>
-  <sequence>68</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.491273900Z</date>
-  <millis>1672343832491</millis>
-  <nanos>273900</nanos>
-  <sequence>69</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.491273900Z</date>
-  <millis>1672343832491</millis>
-  <nanos>273900</nanos>
-  <sequence>70</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.492272300Z</date>
-  <millis>1672343832492</millis>
-  <nanos>272300</nanos>
-  <sequence>71</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:12.492272300Z</date>
-  <millis>1672343832492</millis>
-  <nanos>272300</nanos>
-  <sequence>72</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:16.097660100Z</date>
-  <millis>1672343836097</millis>
-  <nanos>660100</nanos>
-  <sequence>73</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:16.098735600Z</date>
-  <millis>1672343836098</millis>
-  <nanos>735600</nanos>
-  <sequence>74</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>75</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>76</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>77</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>78</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>79</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:20.375146100Z</date>
-  <millis>1672343840375</millis>
-  <nanos>146100</nanos>
-  <sequence>80</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:25.394217600Z</date>
-  <millis>1672343845394</millis>
-  <nanos>217600</nanos>
-  <sequence>81</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:25.394217600Z</date>
-  <millis>1672343845394</millis>
-  <nanos>217600</nanos>
-  <sequence>82</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:25.583147700Z</date>
-  <millis>1672343845583</millis>
-  <nanos>147700</nanos>
-  <sequence>83</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:26.555645600Z</date>
-  <millis>1672343846555</millis>
-  <nanos>645600</nanos>
-  <sequence>84</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:26.555645600Z</date>
-  <millis>1672343846555</millis>
-  <nanos>645600</nanos>
-  <sequence>85</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:26.618060300Z</date>
-  <millis>1672343846618</millis>
-  <nanos>60300</nanos>
-  <sequence>86</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>DeepPlate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:27.178631200Z</date>
-  <millis>1672343847178</millis>
-  <nanos>631200</nanos>
-  <sequence>87</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:27.210090600Z</date>
-  <millis>1672343847210</millis>
-  <nanos>90600</nanos>
-  <sequence>88</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:30.406758400Z</date>
-  <millis>1672343850406</millis>
-  <nanos>758400</nanos>
-  <sequence>89</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:30.407309100Z</date>
-  <millis>1672343850407</millis>
-  <nanos>309100</nanos>
-  <sequence>90</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:31.721498900Z</date>
-  <millis>1672343851721</millis>
-  <nanos>498900</nanos>
-  <sequence>91</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:31.721498900Z</date>
-  <millis>1672343851721</millis>
-  <nanos>498900</nanos>
-  <sequence>92</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:32.035275400Z</date>
-  <millis>1672343852035</millis>
-  <nanos>275400</nanos>
-  <sequence>93</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:32.035275400Z</date>
-  <millis>1672343852035</millis>
-  <nanos>275400</nanos>
-  <sequence>94</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.365534400Z</date>
-  <millis>1672343855365</millis>
-  <nanos>534400</nanos>
-  <sequence>95</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.365534400Z</date>
-  <millis>1672343855365</millis>
-  <nanos>534400</nanos>
-  <sequence>96</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.367043100Z</date>
-  <millis>1672343855367</millis>
-  <nanos>43100</nanos>
-  <sequence>97</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.367043100Z</date>
-  <millis>1672343855367</millis>
-  <nanos>43100</nanos>
-  <sequence>98</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.367620300Z</date>
-  <millis>1672343855367</millis>
-  <nanos>620300</nanos>
-  <sequence>99</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.367620300Z</date>
-  <millis>1672343855367</millis>
-  <nanos>620300</nanos>
-  <sequence>100</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.429136Z</date>
-  <millis>1672343855429</millis>
-  <nanos>136000</nanos>
-  <sequence>101</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.429136Z</date>
-  <millis>1672343855429</millis>
-  <nanos>136000</nanos>
-  <sequence>102</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.429136Z</date>
-  <millis>1672343855429</millis>
-  <nanos>136000</nanos>
-  <sequence>103</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:35.429136Z</date>
-  <millis>1672343855429</millis>
-  <nanos>136000</nanos>
-  <sequence>104</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:36.087848Z</date>
-  <millis>1672343856087</millis>
-  <nanos>848000</nanos>
-  <sequence>105</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:36.087848Z</date>
-  <millis>1672343856087</millis>
-  <nanos>848000</nanos>
-  <sequence>106</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.089283500Z</date>
-  <millis>1672343860089</millis>
-  <nanos>283500</nanos>
-  <sequence>107</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.089283500Z</date>
-  <millis>1672343860089</millis>
-  <nanos>283500</nanos>
-  <sequence>108</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.089283500Z</date>
-  <millis>1672343860089</millis>
-  <nanos>283500</nanos>
-  <sequence>109</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.089283500Z</date>
-  <millis>1672343860089</millis>
-  <nanos>283500</nanos>
-  <sequence>110</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.432377600Z</date>
-  <millis>1672343860432</millis>
-  <nanos>377600</nanos>
-  <sequence>111</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.432377600Z</date>
-  <millis>1672343860432</millis>
-  <nanos>377600</nanos>
-  <sequence>112</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.432377600Z</date>
-  <millis>1672343860432</millis>
-  <nanos>377600</nanos>
-  <sequence>113</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.840624500Z</date>
-  <millis>1672343860840</millis>
-  <nanos>624500</nanos>
-  <sequence>114</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.840624500Z</date>
-  <millis>1672343860840</millis>
-  <nanos>624500</nanos>
-  <sequence>115</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.841258700Z</date>
-  <millis>1672343860841</millis>
-  <nanos>258700</nanos>
-  <sequence>116</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:40.841258700Z</date>
-  <millis>1672343860841</millis>
-  <nanos>258700</nanos>
-  <sequence>117</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:44.972204900Z</date>
-  <millis>1672343864972</millis>
-  <nanos>204900</nanos>
-  <sequence>118</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:44.972204900Z</date>
-  <millis>1672343864972</millis>
-  <nanos>204900</nanos>
-  <sequence>119</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:45.445431200Z</date>
-  <millis>1672343865445</millis>
-  <nanos>431200</nanos>
-  <sequence>120</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:46.473540200Z</date>
-  <millis>1672343866473</millis>
-  <nanos>540200</nanos>
-  <sequence>121</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:46.473540200Z</date>
-  <millis>1672343866473</millis>
-  <nanos>540200</nanos>
-  <sequence>122</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:46.473540200Z</date>
-  <millis>1672343866473</millis>
-  <nanos>540200</nanos>
-  <sequence>123</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:47.165454400Z</date>
-  <millis>1672343867165</millis>
-  <nanos>454400</nanos>
-  <sequence>124</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>DeepPlate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:52.885425900Z</date>
-  <millis>1672343872885</millis>
-  <nanos>425900</nanos>
-  <sequence>125</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:52.885425900Z</date>
-  <millis>1672343872885</millis>
-  <nanos>425900</nanos>
-  <sequence>126</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.901586800Z</date>
-  <millis>1672343877901</millis>
-  <nanos>586800</nanos>
-  <sequence>127</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.902117200Z</date>
-  <millis>1672343877902</millis>
-  <nanos>117200</nanos>
-  <sequence>128</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.902117200Z</date>
-  <millis>1672343877902</millis>
-  <nanos>117200</nanos>
-  <sequence>129</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.902117200Z</date>
-  <millis>1672343877902</millis>
-  <nanos>117200</nanos>
-  <sequence>130</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.902117200Z</date>
-  <millis>1672343877902</millis>
-  <nanos>117200</nanos>
-  <sequence>131</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:57.902117200Z</date>
-  <millis>1672343877902</millis>
-  <nanos>117200</nanos>
-  <sequence>132</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>Plate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:58.523652900Z</date>
-  <millis>1672343878523</millis>
-  <nanos>652900</nanos>
-  <sequence>133</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:57:58.523652900Z</date>
-  <millis>1672343878523</millis>
-  <nanos>652900</nanos>
-  <sequence>134</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:02.933057200Z</date>
-  <millis>1672343882933</millis>
-  <nanos>57200</nanos>
-  <sequence>135</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.594099200Z</date>
-  <millis>1672343883594</millis>
-  <nanos>99200</nanos>
-  <sequence>136</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.656914500Z</date>
-  <millis>1672343883656</millis>
-  <nanos>914500</nanos>
-  <sequence>137</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>DeepPlate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.972427400Z</date>
-  <millis>1672343883972</millis>
-  <nanos>427400</nanos>
-  <sequence>138</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.972427400Z</date>
-  <millis>1672343883972</millis>
-  <nanos>427400</nanos>
-  <sequence>139</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have different colors</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.972427400Z</date>
-  <millis>1672343883972</millis>
-  <nanos>427400</nanos>
-  <sequence>140</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.972427400Z</date>
-  <millis>1672343883972</millis>
-  <nanos>427400</nanos>
-  <sequence>141</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.972427400Z</date>
-  <millis>1672343883972</millis>
-  <nanos>427400</nanos>
-  <sequence>142</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:03.973477300Z</date>
-  <millis>1672343883973</millis>
-  <nanos>477300</nanos>
-  <sequence>143</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.Controller.Utils.Score</class>
@@ -1730,10 +206,10 @@
   <message>the score of the player is 1</message>
 </record>
 <record>
-  <date>2022-12-29T19:58:03.973477300Z</date>
-  <millis>1672343883973</millis>
-  <nanos>477300</nanos>
-  <sequence>144</sequence>
+  <date>2022-12-29T20:01:35.743953800Z</date>
+  <millis>1672344095743</millis>
+  <nanos>953800</nanos>
+  <sequence>17</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.MyWorld</class>
@@ -1742,147 +218,15 @@
   <message>clown got DeepPlate</message>
 </record>
 <record>
-  <date>2022-12-29T19:58:04.065644Z</date>
-  <millis>1672343884065</millis>
-  <nanos>644000</nanos>
-  <sequence>145</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:05.199162200Z</date>
-  <millis>1672343885199</millis>
-  <nanos>162200</nanos>
-  <sequence>146</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:09.078260100Z</date>
-  <millis>1672343889078</millis>
-  <nanos>260100</nanos>
-  <sequence>147</sequence>
+  <date>2022-12-29T20:01:36.866321500Z</date>
+  <millis>1672344096866</millis>
+  <nanos>321500</nanos>
+  <sequence>18</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.MyWorld</class>
   <method>refresh</method>
   <thread>28</thread>
   <message>clown got DeepPlate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:13.667220100Z</date>
-  <millis>1672343893667</millis>
-  <nanos>220100</nanos>
-  <sequence>148</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Plate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:13.729161800Z</date>
-  <millis>1672343893729</millis>
-  <nanos>161800</nanos>
-  <sequence>149</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>DeepPlate is broken</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:14.047287400Z</date>
-  <millis>1672343894047</millis>
-  <nanos>287400</nanos>
-  <sequence>150</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:14.047834200Z</date>
-  <millis>1672343894047</millis>
-  <nanos>834200</nanos>
-  <sequence>151</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>similarTo</method>
-  <thread>28</thread>
-  <message>shapes have the same color</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:14.047916600Z</date>
-  <millis>1672343894047</millis>
-  <nanos>916600</nanos>
-  <sequence>152</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Utils.Score</class>
-  <method>update</method>
-  <thread>28</thread>
-  <message>the score of the player is 2</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:14.047916600Z</date>
-  <millis>1672343894047</millis>
-  <nanos>916600</nanos>
-  <sequence>153</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:15.050054600Z</date>
-  <millis>1672343895050</millis>
-  <nanos>54600</nanos>
-  <sequence>154</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:15.050054600Z</date>
-  <millis>1672343895050</millis>
-  <nanos>54600</nanos>
-  <sequence>155</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.MyWorld</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>clown got Plate</message>
-</record>
-<record>
-  <date>2022-12-29T19:58:17.991487600Z</date>
-  <millis>1672343897991</millis>
-  <nanos>487600</nanos>
-  <sequence>156</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.Controller.Factories.ShapeFactory</class>
-  <method>getRandomShape</method>
-  <thread>28</thread>
-  <message>DeepPlate is Loaded</message>
 </record>
 </log>

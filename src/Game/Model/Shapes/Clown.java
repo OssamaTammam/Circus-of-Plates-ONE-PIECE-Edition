@@ -46,8 +46,7 @@ public class Clown extends ImageObject implements Cloneable {
         int midX = shape.getX() + shape.getWidth() / 2;
         int y = shape.getY() + shape.getHeight();
         if (left.isEmpty()) {
-            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2)
-                    && y>=stickLeft.getY()) {
+            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2) && y>=stickLeft.getY()) {
                 shape.setY(stickLeft.getY() - shape.getHeight());
                 return addShape(shape, left);
             }
@@ -63,8 +62,7 @@ public class Clown extends ImageObject implements Cloneable {
             }
         }
         if (right.isEmpty()) {
-            if ((stickRight.getX() + stickRight.getWidth() / 2) <= midX
-                    && midX <= (stickRight.getX() + stickRight.getWidth()) && y>=stickRight.getY()) {
+            if (stickRight.getX() <= midX && midX <= (stickRight.getX() + stickRight.getWidth() / 2) && y>=stickRight.getY()) {
                 shape.setY(stickRight.getY() - shape.getHeight());
                 return addShape(shape, right);
             }
