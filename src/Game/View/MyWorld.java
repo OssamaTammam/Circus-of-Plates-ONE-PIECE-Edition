@@ -10,6 +10,7 @@ import Game.Controller.Utils.Score;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -50,12 +51,12 @@ public class MyWorld implements World {
         constant.add(new ImageObject(0, 0, "Background.jpg", width, height));
         score = new Score(maxScore);
         objectPool = new ObjectPool(deadTime, width, height, averageVelocity, diffShapes, shelfLevel, distBetwnRod);
-        initializeShelves();
+        //initializeShelves();
         initializeClowns();
         int spawnFirst = rand.nextInt(activeCount);
         this.activeCount -= spawnFirst;
         for (int i = 0; i < spawnFirst; i++)
-            moving.add(objectPool.getShape());
+            moving.add(objectPool.getPlate());
         lastWave = System.currentTimeMillis();
     }
 
@@ -69,25 +70,25 @@ public class MyWorld implements World {
         cw.addToWorld();
     }
 
-    private void initializeShelves() {
-        int w = (int) Math.round(scaleWidthRod * width);
-        int h = (int) Math.round(distBetwnRod * height);
-        for (int i = 0; i < shelfLevel; i++) {
-            constant.add(new ImageObject(0, h, "rod.png", w, (int) Math.round(scaleHeightRod * height)));
-            w /= scaleBtnRods;
-            h += (int) Math.round(distBetwnRod * height);
-        }
-        w = (int) Math.round(scaleWidthRod * width);
-        h = (int) Math.round(distBetwnRod * height);
-        for (int i = 0; i < shelfLevel; i++) {
-            constant.add((new ImageObject((int) (width - w), h, "rod.png", w, (int) Math.round(scaleHeightRod * height))));
-            w /= scaleBtnRods;
-            h += (int) Math.round(distBetwnRod * height);
+//    private void initializeShelves() {
+//        int w = (int) Math.round(scaleWidthRod * width);
+//        int h = (int) Math.round(distBetwnRod * height);
+//        for (int i = 0; i < shelfLevel; i++) {
+//            constant.add(new ImageObject(0, h, "rod.png", w, (int) Math.round(scaleHeightRod * height)));
+//            w /= scaleBtnRods;
+//            h += (int) Math.round(distBetwnRod * height);
+//        }
+//        w = (int) Math.round(scaleWidthRod * width);
+//        h = (int) Math.round(distBetwnRod * height);
+//        for (int i = 0; i < shelfLevel; i++) {
+//            constant.add((new ImageObject((int) (width - w), h, "rod.png", w, (int) Math.round(scaleHeightRod * height))));
+//            w /= scaleBtnRods;
+//            h += (int) Math.round(distBetwnRod * height);
+//
+//        }
+//    }
 
-        }
-    }
-
-    private void changeState(Shape s) {
+    private void changeState(ImageObject s) {
         int shelfNumber = Math.round(s.getY() + s.getHeight()) / (int) Math.round(distBetwnRod * height);
         if (s.getState().getVelocityX() > 0 && s.getX() + s.getWidth() / 2 > constant.get(shelfNumber).getX() + constant.get(shelfNumber).getWidth()) {
             s.getState().setParameters(0.005, 0.001, 0.2);
@@ -109,7 +110,7 @@ public class MyWorld implements World {
         long timeSinceLastWave = System.currentTimeMillis() - lastWave;
         List<GameObject> toRemove = new ArrayList<>();
         for (GameObject m : moving) {
-            Shape s = (Shape) m;
+            ImageObject s = (ImageObject) m;
             s.move();
             if (Math.abs(s.getState().getAcceleration()) < 1e-9) {
                 changeState(s);
@@ -127,15 +128,15 @@ public class MyWorld implements World {
             int spawnFirst = Math.min(rand.nextInt(activeCount) + 1, activeCount);
             activeCount -= spawnFirst;
             for (int i = 0; i < spawnFirst; i++)
-                moving.add(objectPool.getShape());
+                moving.add(objectPool.getPlate());
             lastWave = System.currentTimeMillis();
         }
         for (GameObject m : moving) {
             if (m.getY() > height) {
                 toRemove.add(m);
-                objectPool.releaseShape((Shape) m);
+                objectPool.releaseShape((ImageObject) m);
                 activeCount++;
-                log.help().info(((Shape) m).getClass().getName() + " is broken");
+                log.help().info(((ImageObject) m).getClass().getName() + " is broken");
             }
         }
         for (GameObject m : toRemove) {

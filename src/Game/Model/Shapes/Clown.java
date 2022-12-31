@@ -82,8 +82,8 @@ public class Clown extends ImageObject implements Cloneable {
 
     public boolean addShape(GameObject shape, LinkedList<GameObject> stk) {
         if (stk.size() >= 2 && checkTop(0, shape, stk)) {
-            Shape sh1 = (Shape) stk.removeLast();
-            Shape sh2 = (Shape) stk.removeLast();
+            GameObject sh1 = stk.removeLast();
+            GameObject sh2 = stk.removeLast();
             myWorld.getObjectPool().releaseShape(sh1);
             myWorld.getObjectPool().releaseShape(sh2);
             myWorld.getConstantObjects().remove(sh1);
@@ -134,7 +134,7 @@ public class Clown extends ImageObject implements Cloneable {
             return true;
         GameObject p = stk.removeLast();
         boolean flag = false;
-        if (ShapeFactory.getInstance().equalColor(p, shape)) {
+        if (ShapeFactory.getInstance().isSame(p, shape)) {
             flag = checkTop(n + 1, shape, stk);
         }
         stk.add(p);
@@ -205,5 +205,30 @@ public class Clown extends ImageObject implements Cloneable {
         }
         return new Clown(x, y, images, (ImageObject) stickLeft.clone(), (ImageObject) stickRight.clone(), cpyleft,
                 cpyRight, obs, myWorld);
+    }
+
+    @Override
+    public void setVisible(boolean visible) {
+
+    }
+
+    @Override
+    public void move() {
+
+    }
+
+    @Override
+    public int getScreenWidth() {
+        return 0;
+    }
+
+    @Override
+    public int getScreenHeight() {
+        return 0;
+    }
+
+    @Override
+    public void setRandomImage() {
+
     }
 }

@@ -1,19 +1,22 @@
 package Game.Model.Shapes;
 
+import Game.Controller.Factories.ShapeFactory;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Random;
 
-public class ImageObject implements GameObject, Cloneable {
+public class ImageObject implements GameObject, Cloneable, Shape {
     protected BufferedImage[] images;
     protected int x;
     protected int y;
     protected boolean visible;
     protected int width;
     protected int height;
+    private ShapeState state;
 
     public ImageObject(int x, int y, String path, int width, int height) {
         this.x = x;
@@ -95,8 +98,56 @@ public class ImageObject implements GameObject, Cloneable {
         return scaledBI;
     }
 
+    public void resize(int newW, int newH) {
+        Image tmp = images[0].getScaledInstance(newW, newH, Image.SCALE_SMOOTH);
+        BufferedImage dimg = new BufferedImage(newW, newH, BufferedImage.TYPE_INT_ARGB);
+
+        Graphics2D g2d = dimg.createGraphics();
+        g2d.drawImage(tmp, 0, 0, null);
+        g2d.dispose();
+
+        images[0] = dimg;
+    }
+
     @Override
     public GameObject clone() {
         return new ImageObject(x, y, images);
     }
+
+    @Override
+    public void setVisible(boolean visible) {
+        this.visible = visible;
+    }
+
+
+    @Override
+    public void move() {
+        state.move(this);
+    }
+
+
+    public ShapeState getState() {
+        return state;
+    }
+    public void setState(ShapeState state) {
+        this.state = state;
+    }
+
+    @Override
+    public int getScreenWidth() {
+        return 0;
+    }
+
+    @Override
+    public int getScreenHeight() {
+        return 0;
+    }
+
+    @Override
+    public void setRandomImage(){
+        Random rand = new Random();
+        int idx = rand.nextInt(5);
+        images = new BufferedImage[]{ShapeFactory.getInstance().getImage("plate" + ((idx != 0) ? idx : "") + ".png" )};
+    }
 }
+

@@ -33,7 +33,7 @@ public class ShapeState {
         this.aY = aY;
     }
 
-    public void move(Shape s) {
+    public void move(ImageObject s) {
         int x = s.getX();
         int y = s.getY();
         int newX = (int) Math.round(x + vX);
@@ -53,7 +53,7 @@ public class ShapeState {
         vY = (aY - (aY - b * vY) * Math.exp(-b)) / b;
     }
 
-    //    public void reflect(boolean right){
+//        public void reflect(boolean right){
 //        if(vX > 0 && right) {
 //            vX = (-vX * 0.5);
 //        }else if( vX < 0 && !right){
