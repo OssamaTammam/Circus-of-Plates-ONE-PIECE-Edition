@@ -106,6 +106,8 @@ public class ImageObject implements GameObject, Cloneable, Shape {
         g2d.drawImage(tmp, 0, 0, null);
         g2d.dispose();
 
+        this.height = newH;
+        this.width = newW;
         images[0] = dimg;
     }
 
@@ -129,6 +131,7 @@ public class ImageObject implements GameObject, Cloneable, Shape {
     public ShapeState getState() {
         return state;
     }
+
     public void setState(ShapeState state) {
         this.state = state;
     }
@@ -144,10 +147,7 @@ public class ImageObject implements GameObject, Cloneable, Shape {
     }
 
     @Override
-    public void setRandomImage(){
-        Random rand = new Random();
-        int idx = rand.nextInt(5);
-        images = new BufferedImage[]{ShapeFactory.getInstance().getImage("plate" + ((idx != 0) ? idx : "") + ".png" )};
+    public void setRandomImage() {
     }
 }
 

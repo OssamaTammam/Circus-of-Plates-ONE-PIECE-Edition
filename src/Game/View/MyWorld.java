@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MyWorld implements World {
-    private static int MAX_TIME =  30 * 1000;    // 1 minute
+    private static int MAX_TIME = 90 * 1000;    // 1.5 minutes
     private Score score;
     private long startTime = System.currentTimeMillis();
     private final int width;
@@ -30,28 +30,20 @@ public class MyWorld implements World {
     private long waveTime;
     private long lastWave;
     private Random rand = new Random();
-    private int shelfLevel;
-    private final double distBetwnRod = 0.08;
-    private final double scaleHeightRod = 0.009;
-    private final double scaleWidthRod = 5 / 18.0;
-    private final double scaleBtnRods = 2;
     private int clowns;
-    private final long deadTime = 10 * 1000;
     private Start start;
     Logging log = new Logging();
 
-    public MyWorld(int screenWidth, int screenHeight, int activeCount, double averageVelocity, int diffShapes, int waveTime, int shelfLevel, int clowns, int maxScore, Start start) {
+    public MyWorld(int screenWidth, int screenHeight, int activeCount, double averageVelocity, int waveTime, int clowns, int maxScore, Start start) {
         width = screenWidth;
         height = screenHeight;
         this.activeCount = activeCount;
         this.waveTime = waveTime * 1000;
-        this.shelfLevel = shelfLevel;
         this.clowns = clowns;
         this.start = start;
         constant.add(new ImageObject(0, 0, "Background.jpg", width, height));
         score = new Score(maxScore);
-        objectPool = new ObjectPool(deadTime, width, height, averageVelocity, diffShapes, shelfLevel, distBetwnRod);
-        //initializeShelves();
+        objectPool = new ObjectPool( width, height, averageVelocity);
         initializeClowns();
         int spawnFirst = rand.nextInt(activeCount);
         this.activeCount -= spawnFirst;
@@ -70,38 +62,11 @@ public class MyWorld implements World {
         cw.addToWorld();
     }
 
-//    private void initializeShelves() {
-//        int w = (int) Math.round(scaleWidthRod * width);
-//        int h = (int) Math.round(distBetwnRod * height);
-//        for (int i = 0; i < shelfLevel; i++) {
-//            constant.add(new ImageObject(0, h, "rod.png", w, (int) Math.round(scaleHeightRod * height)));
-//            w /= scaleBtnRods;
-//            h += (int) Math.round(distBetwnRod * height);
-//        }
-//        w = (int) Math.round(scaleWidthRod * width);
-//        h = (int) Math.round(distBetwnRod * height);
-//        for (int i = 0; i < shelfLevel; i++) {
-//            constant.add((new ImageObject((int) (width - w), h, "rod.png", w, (int) Math.round(scaleHeightRod * height))));
-//            w /= scaleBtnRods;
-//            h += (int) Math.round(distBetwnRod * height);
-//
-//        }
-//    }
-
-    private void changeState(ImageObject s) {
-        int shelfNumber = Math.round(s.getY() + s.getHeight()) / (int) Math.round(distBetwnRod * height);
-        if (s.getState().getVelocityX() > 0 && s.getX() + s.getWidth() / 2 > constant.get(shelfNumber).getX() + constant.get(shelfNumber).getWidth()) {
-            s.getState().setParameters(0.005, 0.001, 0.2);
-        } else if (s.getState().getVelocityX() < 0 && s.getX() + s.getWidth() / 2 < constant.get(shelfNumber + shelfLevel).getX()) {
-            s.getState().setParameters(0.005, 0.001, 0.2);
-        }
-    }
-
     @Override
     public boolean refresh() {
         boolean timeout = System.currentTimeMillis() - startTime > MAX_TIME; // time end and game over
         if (score.getStatues()) {
-            start.setLevel(score.getScore() + 2);
+            start.setLevel(score.getScore() - 1);
         }
         if (timeout) {
             start.setLevel(10);
@@ -112,9 +77,7 @@ public class MyWorld implements World {
         for (GameObject m : moving) {
             ImageObject s = (ImageObject) m;
             s.move();
-            if (Math.abs(s.getState().getAcceleration()) < 1e-9) {
-                changeState(s);
-            }
+            //changeState(s);
             for (Clown t : ((ClownWrapper) control.get(0)).getClowns()) {
                 if (t.checkIntersectAndAdd(m)) {
                     activeCount++;
@@ -134,7 +97,7 @@ public class MyWorld implements World {
         for (GameObject m : moving) {
             if (m.getY() > height) {
                 toRemove.add(m);
-                objectPool.releaseShape((ImageObject) m);
+                objectPool.releaseShape(m);
                 activeCount++;
                 log.help().info(((ImageObject) m).getClass().getName() + " is broken");
             }
