@@ -19,14 +19,6 @@ public class ClownWrapper implements GameObject, Cloneable {
         this.x = (int) Math.round(width / 2.0);
     }
 
-    public ClownWrapper(int x, int width, List<Clown> list, MyWorld world) {
-        this.x = x;
-        this.width = width;
-        this.world = world;
-        this.x = (int) Math.round(width / 2.0);
-        this.list = list;
-    }
-
     public void addClown(Clown clown) {
         list.add(clown);
     }
@@ -96,10 +88,6 @@ public class ClownWrapper implements GameObject, Cloneable {
 
     @Override
     public GameObject clone() {
-        ArrayList<Clown> cls = new ArrayList<>();
-        for (Clown o : list) {
-            cls.add((Clown) o.clone());
-        }
-        return new ClownWrapper(x, width, cls, world);
+        return null;
     }
 }

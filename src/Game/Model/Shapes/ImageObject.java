@@ -1,13 +1,11 @@
 package Game.Model.Shapes;
 
-import Game.Controller.Factories.ShapeFactory;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Random;
 
 public class ImageObject implements GameObject, Cloneable, Shape {
     protected BufferedImage[] images;

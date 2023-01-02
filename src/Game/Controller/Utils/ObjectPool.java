@@ -2,14 +2,11 @@ package Game.Controller.Utils;
 
 import Game.Controller.Factories.ShapeFactory;
 import Game.Model.Shapes.ImageObject;
-import Game.Model.Shapes.Shape;
 import Game.Model.Shapes.ShapeState;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
-import java.awt.font.GlyphMetrics;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
 public class ObjectPool {
     private int width;

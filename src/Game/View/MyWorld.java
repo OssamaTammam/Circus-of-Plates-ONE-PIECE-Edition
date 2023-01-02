@@ -4,13 +4,11 @@ import Game.Controller.Logging;
 import Game.Model.Shapes.Clown;
 import Game.Model.Shapes.ClownWrapper;
 import Game.Model.Shapes.ImageObject;
-import Game.Model.Shapes.Shape;
 import Game.Controller.Utils.ObjectPool;
 import Game.Controller.Utils.Score;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -43,7 +41,7 @@ public class MyWorld implements World {
         this.start = start;
         constant.add(new ImageObject(0, 0, "Background.jpg", width, height));
         score = new Score(maxScore);
-        objectPool = new ObjectPool( width, height, averageVelocity);
+        objectPool = new ObjectPool(width, height, averageVelocity);
         initializeClowns();
         int spawnFirst = rand.nextInt(activeCount);
         this.activeCount -= spawnFirst;
