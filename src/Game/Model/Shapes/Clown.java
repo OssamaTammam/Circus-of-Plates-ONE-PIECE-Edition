@@ -142,26 +142,25 @@ public class Clown extends ImageObject {
     private boolean intersect(GameObject o1, int choice) {
         // 0 for left, 1 for right
         GameObject o2 = null;
-        int yDiff = 0;
+        int midX = o1.getX() + o1.getWidth() / 2;
+        int y = o1.getY() + o1.getHeight();
+        int z = 1;
         if (choice == 0) {
             if (left.isEmpty()) {
                 o2 = stickLeft;
+                z = 2;
             } else {
                 o2 = left.peek();
-                yDiff = o2.getHeight() - 7;
             }
-
         } else if (choice == 1) {
-            if (right.isEmpty())
+            if (right.isEmpty()) {
                 o2 = stickRight;
-            else {
+                return ((o2.getX() + o2.getWidth() / 2) <= midX && midX <= (o2.getX() + o2.getWidth()) && Math.abs(o2.getY() - y) < 5);
+            } else {
                 o2 = right.peek();
-                yDiff = o2.getHeight() - 7;
             }
         }
-        int midX = o1.getX() + o1.getWidth() / 2;
-        int y = o1.getY() + o1.getHeight();
-        return (o2.getX() <= midX && midX <= (o2.getX() + o2.getWidth() / 2) && Math.abs(o2.getY() - y) < 15);
+        return (o2.getX() <= midX && midX <= (o2.getX() + o2.getWidth() / z) && Math.abs(o2.getY() - y) < 5);
 //        return (Math.abs((o1.getX() + o1.getWidth() / 2) - (o2.getX() + o2.getWidth() / 2)) <= o1.getWidth())
 //                && (Math.abs((o1.getY() + o1.getHeight() / 2) - (o2.getY() + o2.getHeight() / 2)) <= o1.getHeight());
     }

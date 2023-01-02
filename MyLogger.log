@@ -2,21 +2,21 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-01-02T20:04:08.391570100Z</date>
-  <millis>1672689848391</millis>
-  <nanos>570100</nanos>
+  <date>2023-01-02T20:33:17.050371400Z</date>
+  <millis>1672691597050</millis>
+  <nanos>371400</nanos>
   <sequence>0</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.MyWorld</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>Game.Model.Shapes.ImageObject is broken</message>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
 </record>
 <record>
-  <date>2023-01-02T20:04:08.722517200Z</date>
-  <millis>1672689848722</millis>
-  <nanos>517200</nanos>
+  <date>2023-01-02T20:33:18.942580500Z</date>
+  <millis>1672691598942</millis>
+  <nanos>580500</nanos>
   <sequence>1</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -26,10 +26,178 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-02T20:04:09.190527Z</date>
-  <millis>1672689849190</millis>
-  <nanos>527000</nanos>
+  <date>2023-01-02T20:33:19.940202800Z</date>
+  <millis>1672691599940</millis>
+  <nanos>202800</nanos>
   <sequence>2</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:22.306318Z</date>
+  <millis>1672691602306</millis>
+  <nanos>318000</nanos>
+  <sequence>3</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:23.082578700Z</date>
+  <millis>1672691603082</millis>
+  <nanos>578700</nanos>
+  <sequence>4</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:23.826958500Z</date>
+  <millis>1672691603826</millis>
+  <nanos>958500</nanos>
+  <sequence>5</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:24.327350Z</date>
+  <millis>1672691604327</millis>
+  <nanos>350000</nanos>
+  <sequence>6</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:24.357899500Z</date>
+  <millis>1672691604357</millis>
+  <nanos>899500</nanos>
+  <sequence>7</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:24.698225400Z</date>
+  <millis>1672691604698</millis>
+  <nanos>225400</nanos>
+  <sequence>8</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:24.919292700Z</date>
+  <millis>1672691604919</millis>
+  <nanos>292700</nanos>
+  <sequence>9</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:28.367008800Z</date>
+  <millis>1672691608367</millis>
+  <nanos>8800</nanos>
+  <sequence>10</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:32.725722900Z</date>
+  <millis>1672691612725</millis>
+  <nanos>722900</nanos>
+  <sequence>11</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:34.464384800Z</date>
+  <millis>1672691614464</millis>
+  <nanos>384800</nanos>
+  <sequence>12</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:37.201316400Z</date>
+  <millis>1672691617201</millis>
+  <nanos>316400</nanos>
+  <sequence>13</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:39.821480600Z</date>
+  <millis>1672691619821</millis>
+  <nanos>480600</nanos>
+  <sequence>14</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:42.847413Z</date>
+  <millis>1672691622847</millis>
+  <nanos>413000</nanos>
+  <sequence>15</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.MyWorld</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-02T20:33:44.155520900Z</date>
+  <millis>1672691624155</millis>
+  <nanos>520900</nanos>
+  <sequence>16</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.MyWorld</class>
