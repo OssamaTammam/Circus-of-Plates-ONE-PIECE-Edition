@@ -1,12 +1,24 @@
 package Game.Controller.Factories;
 
+//import Game.Controller.Loader.ShapesLoader;
+
 import Game.Model.Shapes.ImageObject;
+import Game.Model.Shapes.Shape;
+import Game.Model.Shapes.ShapeState;
 import Game.Controller.Logging;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FilenameFilter;
+import java.lang.reflect.InvocationTargetException;
+import java.util.*;
+import java.util.List;
 
 public class ShapeFactory {
+    private List<Class<? extends Game.Model.Shapes.Shape>> loadedClass;
+    private Map<String, BufferedImage> mp; // Flyweight Design Pattern
     public static ShapeFactory instance;
     Logging log = new Logging();
 
@@ -22,6 +34,14 @@ public class ShapeFactory {
         return instance;
     }
 
+    /**
+     * Initializing Factory
+     */
+    private ShapeFactory() {
+        loadedClass = new ArrayList<>();
+        mp = new HashMap<>();
+    }
+
     public GameObject getRandomImage(int posX, int posY, int screenWidth, int screenHeight) {
 
         int imgNum = (int) (Math.random() * 3 + 1);
@@ -31,7 +51,7 @@ public class ShapeFactory {
         return plate;
     }
 
-    public boolean isSame(GameObject a, GameObject b) {
+    public boolean isSame(GameObject a, GameObject b) {  // Compares Images by Resolution and By RGB of every Pixel
 
         BufferedImage imageA = a.getSpriteImages()[0];
         BufferedImage imageB = b.getSpriteImages()[0];
