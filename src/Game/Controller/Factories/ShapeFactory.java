@@ -6,7 +6,6 @@ import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
 
-
 public class ShapeFactory {
     public static ShapeFactory instance;
     Logging log = new Logging();

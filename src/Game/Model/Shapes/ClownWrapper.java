@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClownWrapper implements GameObject, Cloneable {
+public class ClownWrapper implements GameObject {
     List<Clown> list = new ArrayList<>();
     int width;
     int x;
@@ -76,6 +76,7 @@ public class ClownWrapper implements GameObject, Cloneable {
 
     @Override
     public BufferedImage[] getSpriteImages() {
+
         return new BufferedImage[]{new BufferedImage(1, 1, 1)};
     }
 
@@ -86,8 +87,5 @@ public class ClownWrapper implements GameObject, Cloneable {
         }
     }
 
-    @Override
-    public GameObject clone() {
-        return null;
-    }
+
 }

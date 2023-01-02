@@ -9,7 +9,6 @@ public class Audio {
     public void playMusic(String audioLocation) {
         try {
             AudioInputStream input = AudioSystem.getAudioInputStream(getClass().getClassLoader().getResourceAsStream(audioLocation));
-            ;
             clip = AudioSystem.getClip();
             clip.open(input);
             clip.start();

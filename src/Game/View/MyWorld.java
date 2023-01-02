@@ -82,7 +82,6 @@ public class MyWorld implements World {
                     toRemove.add(m);
                     log.help().info("clown got " + s.getClass().getName());
                 }
-
             }
         }
         if (timeSinceLastWave > waveTime && activeCount > 0) {

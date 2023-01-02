@@ -37,7 +37,6 @@ public class ObjectPool {
                 return plate;
             }
         }
-
         GameObject plate = ShapeFactory.getInstance().getRandomImage((int) Math.random() * width, (int) (Math.random() * height / 3), width, height);
         ((ImageObject) plate).setState(new ShapeState(averageVelocity));
         plate.setX((int) (Math.random() * width));

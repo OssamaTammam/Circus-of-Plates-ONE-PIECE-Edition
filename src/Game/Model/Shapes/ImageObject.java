@@ -7,7 +7,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-public class ImageObject implements GameObject, Cloneable, Shape {
+public class ImageObject implements GameObject, Shape {
     protected BufferedImage[] images;
     protected int x;
     protected int y;
@@ -107,11 +107,6 @@ public class ImageObject implements GameObject, Cloneable, Shape {
         this.height = newH;
         this.width = newW;
         images[0] = dimg;
-    }
-
-    @Override
-    public GameObject clone() {
-        return new ImageObject(x, y, images);
     }
 
     @Override
