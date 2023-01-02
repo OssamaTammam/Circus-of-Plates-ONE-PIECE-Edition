@@ -59,61 +59,6 @@ public class Clown extends ImageObject {
             return false;
     }
 
-//    public boolean checkInterssectAndAdd(GameObject shape) {
-//        int midX = shape.getX() + shape.getWidth() / 2;
-//        int y = shape.getY() + shape.getHeight();
-//        if (left.isEmpty()) {
-//            if (stickLeft.getX() <= midX && midX <= (stickLeft.getX() + stickLeft.getWidth() / 2) && Math.abs(stickLeft.getY() - y) < 15) {
-//                shape.setY(stickLeft.getY() - shape.getHeight());
-//                return addShape(shape, left);
-//            }
-//        } else {
-//            RemoveFromStk(left);
-//            AddToStk(left);
-//            GameObject top = left.peekLast();
-//            if (top != null) {
-//                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && Math.abs(top.getY() - y) < 15) {
-//                    shape.setY(top.getY() - shape.getHeight());
-//                    return addShape(shape, left);
-//                }
-//            }
-//        }
-//        if (right.isEmpty()) {
-//            if ((stickRight.getX() + stickRight.getWidth() / 2) <= midX && midX <= (stickRight.getX() + stickRight.getWidth()) && Math.abs(stickRight.getY() - y) < 15) {
-//                shape.setY(stickRight.getY() - shape.getHeight());
-//                return addShape(shape, right);
-//            }
-//        } else {
-//            RemoveFromStk(right);
-//            AddToStk(right);
-//            GameObject top = right.peekLast();
-//            if (top != null) {
-//                if (top.getX() <= midX && midX <= (top.getX() + top.getWidth()) && Math.abs(top.getY() - y) < 15) {
-//                    shape.setY(top.getY() - shape.getHeight());
-//                    return addShape(shape, right);
-//                }
-//            }
-//        }
-//        return false;
-//    }
-
-//    public boolean addShape(GameObject shape, LinkedList<GameObject> stk) {
-//        if (stk.size() >= 2 && checkTop(0, shape, stk)) {
-//            GameObject sh1 = stk.removeLast();
-//            GameObject sh2 = stk.removeLast();
-//            myWorld.getObjectPool().releaseShape(sh1);
-//            myWorld.getObjectPool().releaseShape(sh2);
-//            myWorld.getConstantObjects().remove(sh1);
-//            myWorld.getConstantObjects().remove(sh2);
-//            obs.setChanged();
-//            obs.notifyObservers();
-//        } else {
-//            stk.add(shape);
-//            myWorld.getConstantObjects().add(shape);
-//        }
-//        return true;
-//    }
-
     private boolean checkTop(GameObject shape, Stack<GameObject> stk) {
         int size = stk.size();
         if (size < 3)
@@ -215,28 +160,5 @@ public class Clown extends ImageObject {
         for (GameObject o : right) {
             myWorld.getConstantObjects().add(o);
         }
-    }
-
-    @Override
-    public void setVisible(boolean visible) {
-    }
-
-    @Override
-    public void move() {
-
-    }
-
-    @Override
-    public int getScreenWidth() {
-        return 0;
-    }
-
-    @Override
-    public int getScreenHeight() {
-        return 0;
-    }
-
-    @Override
-    public void setRandomImage() {
     }
 }

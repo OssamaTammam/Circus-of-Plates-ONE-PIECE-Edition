@@ -50,6 +50,19 @@ public class ClownWrapper implements GameObject {
     }
 
     @Override
+    public BufferedImage[] getSpriteImages() {
+
+        return new BufferedImage[]{new BufferedImage(1, 1, 1)};
+    }
+
+    public void addToWorld() {
+        world.getControlableObjects().add(this);
+        for (Clown c : getClowns()) {
+            c.addToWorld();
+        }
+    }
+
+    @Override
     public int getY() {
         return 0;
     }
@@ -73,19 +86,4 @@ public class ClownWrapper implements GameObject {
     public boolean isVisible() {
         return false;
     }
-
-    @Override
-    public BufferedImage[] getSpriteImages() {
-
-        return new BufferedImage[]{new BufferedImage(1, 1, 1)};
-    }
-
-    public void addToWorld() {
-        world.getControlableObjects().add(this);
-        for (Clown c : getClowns()) {
-            c.addToWorld();
-        }
-    }
-
-
 }

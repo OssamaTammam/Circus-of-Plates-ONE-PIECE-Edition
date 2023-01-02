@@ -75,7 +75,6 @@ public class MyWorld implements World {
         for (GameObject m : moving) {
             ImageObject s = (ImageObject) m;
             s.move();
-            //changeState(s);
             for (Clown t : ((ClownWrapper) control.get(0)).getClowns()) {
                 if (t.checkIntersectAndAdd(m)) {
                     activeCount++;
@@ -102,7 +101,7 @@ public class MyWorld implements World {
         for (GameObject m : toRemove) {
             moving.remove(m);
         }
-        return !timeout;
+        return true;
     }
 
     public ObjectPool getObjectPool() {
