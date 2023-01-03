@@ -38,9 +38,7 @@ public class ShapeFactory {
 
         int imgNum = (int) (Math.random() * 3 + 1);
         String imgName = "plate" + imgNum + ".png";
-        ImageObject plate = new ImageObject(posX, posY, imgName, width, height);
-        // plate.resize(50, 40);
-        return plate;
+        return new ImageObject(posX, posY, imgName, width, height);
     }
 
     /**

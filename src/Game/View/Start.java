@@ -89,6 +89,7 @@ public class Start {
         else {
             audio.stop();
             Main.mainMenu.setVisible(true);
+            gameController.pause();
             return;
         }
         callGame();

@@ -100,7 +100,6 @@ public class ImageObject implements GameObject, Shape {
         state.move(this);
     }
 
-
     public ShapeState getState() {
         return state;
     }

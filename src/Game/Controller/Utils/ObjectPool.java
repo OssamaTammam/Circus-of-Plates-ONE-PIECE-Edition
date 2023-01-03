@@ -13,11 +13,11 @@ import java.util.List;
  * This class is responsible for creating the shapes that will be used in the game
  */
 public class ObjectPool {
-    private int screenWidth;
-    private int screenHeight;
-    private double averageVelocity; //Average falling velocity of the shapes
-    private List<GameObject> inUse; //Shapes that are currently in use
-    private List<GameObject> available; //Shapes that are currently on standby
+    final private int screenWidth;
+    final private int screenHeight;
+    final private double averageVelocity; //Average falling velocity of the shapes
+    final private List<GameObject> inUse; //Shapes that are currently in use
+    final private List<GameObject> available; //Shapes that are currently on standby
 
     public ObjectPool(int screenWidth, int screenHeight, double averageVelocity) {
 

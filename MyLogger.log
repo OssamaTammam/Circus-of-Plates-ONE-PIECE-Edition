@@ -2,21 +2,21 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-01-03T15:22:47.377289400Z</date>
-  <millis>1672759367377</millis>
-  <nanos>289400</nanos>
+  <date>2023-01-03T16:05:31.887629200Z</date>
+  <millis>1672761931887</millis>
+  <nanos>629200</nanos>
   <sequence>0</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>clown got Game.Model.Shapes.ImageObject</message>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:49.199138Z</date>
-  <millis>1672759369199</millis>
-  <nanos>138000</nanos>
+  <date>2023-01-03T16:05:31.907601500Z</date>
+  <millis>1672761931907</millis>
+  <nanos>601500</nanos>
   <sequence>1</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:49.230515800Z</date>
-  <millis>1672759369230</millis>
-  <nanos>515800</nanos>
+  <date>2023-01-03T16:05:31.937487500Z</date>
+  <millis>1672761931937</millis>
+  <nanos>487500</nanos>
   <sequence>2</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:49.448879600Z</date>
-  <millis>1672759369448</millis>
-  <nanos>879600</nanos>
+  <date>2023-01-03T16:05:32.123915100Z</date>
+  <millis>1672761932123</millis>
+  <nanos>915100</nanos>
   <sequence>3</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -50,9 +50,9 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:49.824099200Z</date>
-  <millis>1672759369824</millis>
-  <nanos>99200</nanos>
+  <date>2023-01-03T16:05:32.155829900Z</date>
+  <millis>1672761932155</millis>
+  <nanos>829900</nanos>
   <sequence>4</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:49.886872700Z</date>
-  <millis>1672759369886</millis>
-  <nanos>872700</nanos>
+  <date>2023-01-03T16:05:32.249584200Z</date>
+  <millis>1672761932249</millis>
+  <nanos>584200</nanos>
   <sequence>5</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -74,21 +74,21 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:52.446248600Z</date>
-  <millis>1672759372446</millis>
-  <nanos>248600</nanos>
+  <date>2023-01-03T16:05:32.652212800Z</date>
+  <millis>1672761932652</millis>
+  <nanos>212800</nanos>
   <sequence>6</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>clown got Game.Model.Shapes.ImageObject</message>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:53.695269Z</date>
-  <millis>1672759373695</millis>
-  <nanos>269000</nanos>
+  <date>2023-01-03T16:05:32.683160Z</date>
+  <millis>1672761932683</millis>
+  <nanos>160000</nanos>
   <sequence>7</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -98,21 +98,21 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:54.258220Z</date>
-  <millis>1672759374258</millis>
-  <nanos>220000</nanos>
+  <date>2023-01-03T16:05:33.528033800Z</date>
+  <millis>1672761933528</millis>
+  <nanos>33800</nanos>
   <sequence>8</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>Game.Model.Shapes.ImageObject is broken</message>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:54.382365300Z</date>
-  <millis>1672759374382</millis>
-  <nanos>365300</nanos>
+  <date>2023-01-03T16:05:34.059964600Z</date>
+  <millis>1672761934059</millis>
+  <nanos>964600</nanos>
   <sequence>9</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:54.475256600Z</date>
-  <millis>1672759374475</millis>
-  <nanos>256600</nanos>
+  <date>2023-01-03T16:05:34.339765600Z</date>
+  <millis>1672761934339</millis>
+  <nanos>765600</nanos>
   <sequence>10</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -134,10 +134,22 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:57.687105600Z</date>
-  <millis>1672759377687</millis>
-  <nanos>105600</nanos>
+  <date>2023-01-03T16:05:34.463187700Z</date>
+  <millis>1672761934463</millis>
+  <nanos>187700</nanos>
   <sequence>11</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:34.964381200Z</date>
+  <millis>1672761934964</millis>
+  <nanos>381200</nanos>
+  <sequence>12</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
@@ -146,33 +158,21 @@
   <message>clown got Game.Model.Shapes.ImageObject</message>
 </record>
 <record>
-  <date>2023-01-03T15:22:59.397242500Z</date>
-  <millis>1672759379397</millis>
-  <nanos>242500</nanos>
-  <sequence>12</sequence>
-  <logger>Game.Controller.Logging</logger>
-  <level>INFO</level>
-  <class>Game.View.OnePiece</class>
-  <method>refresh</method>
-  <thread>28</thread>
-  <message>Game.Model.Shapes.ImageObject is broken</message>
-</record>
-<record>
-  <date>2023-01-03T15:22:59.739794700Z</date>
-  <millis>1672759379739</millis>
-  <nanos>794700</nanos>
+  <date>2023-01-03T16:05:35.213386400Z</date>
+  <millis>1672761935213</millis>
+  <nanos>386400</nanos>
   <sequence>13</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
   <method>refresh</method>
   <thread>28</thread>
-  <message>Game.Model.Shapes.ImageObject is broken</message>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
 </record>
 <record>
-  <date>2023-01-03T15:23:03.992067800Z</date>
-  <millis>1672759383992</millis>
-  <nanos>67800</nanos>
+  <date>2023-01-03T16:05:35.838228900Z</date>
+  <millis>1672761935838</millis>
+  <nanos>228900</nanos>
   <sequence>14</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
@@ -182,10 +182,1474 @@
   <message>Game.Model.Shapes.ImageObject is broken</message>
 </record>
 <record>
-  <date>2023-01-03T15:23:07.264559800Z</date>
-  <millis>1672759387264</millis>
-  <nanos>559800</nanos>
+  <date>2023-01-03T16:05:35.869213600Z</date>
+  <millis>1672761935869</millis>
+  <nanos>213600</nanos>
   <sequence>15</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:35.869213600Z</date>
+  <millis>1672761935869</millis>
+  <nanos>213600</nanos>
+  <sequence>16</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:36.022907100Z</date>
+  <millis>1672761936022</millis>
+  <nanos>907100</nanos>
+  <sequence>17</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:36.117650600Z</date>
+  <millis>1672761936117</millis>
+  <nanos>650600</nanos>
+  <sequence>18</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:36.149206800Z</date>
+  <millis>1672761936149</millis>
+  <nanos>206800</nanos>
+  <sequence>19</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:36.243340Z</date>
+  <millis>1672761936243</millis>
+  <nanos>340000</nanos>
+  <sequence>20</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:36.431263700Z</date>
+  <millis>1672761936431</millis>
+  <nanos>263700</nanos>
+  <sequence>21</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:37.156131200Z</date>
+  <millis>1672761937156</millis>
+  <nanos>131200</nanos>
+  <sequence>22</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.Controller.Utils.Score</class>
+  <method>update</method>
+  <thread>28</thread>
+  <message>the score of the player is 1</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:37.157128200Z</date>
+  <millis>1672761937157</millis>
+  <nanos>128200</nanos>
+  <sequence>23</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:37.744254600Z</date>
+  <millis>1672761937744</millis>
+  <nanos>254600</nanos>
+  <sequence>24</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:38.181149300Z</date>
+  <millis>1672761938181</millis>
+  <nanos>149300</nanos>
+  <sequence>25</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:38.181149300Z</date>
+  <millis>1672761938181</millis>
+  <nanos>149300</nanos>
+  <sequence>26</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:38.591280400Z</date>
+  <millis>1672761938591</millis>
+  <nanos>280400</nanos>
+  <sequence>27</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:38.747573700Z</date>
+  <millis>1672761938747</millis>
+  <nanos>573700</nanos>
+  <sequence>28</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:38.905194300Z</date>
+  <millis>1672761938905</millis>
+  <nanos>194300</nanos>
+  <sequence>29</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:39.597501400Z</date>
+  <millis>1672761939597</millis>
+  <nanos>501400</nanos>
+  <sequence>30</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:39.817158100Z</date>
+  <millis>1672761939817</millis>
+  <nanos>158100</nanos>
+  <sequence>31</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:39.878035400Z</date>
+  <millis>1672761939878</millis>
+  <nanos>35400</nanos>
+  <sequence>32</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.001333400Z</date>
+  <millis>1672761940001</millis>
+  <nanos>333400</nanos>
+  <sequence>33</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.002297300Z</date>
+  <millis>1672761940002</millis>
+  <nanos>297300</nanos>
+  <sequence>34</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.403872400Z</date>
+  <millis>1672761940403</millis>
+  <nanos>872400</nanos>
+  <sequence>35</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.497265100Z</date>
+  <millis>1672761940497</millis>
+  <nanos>265100</nanos>
+  <sequence>36</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.686241600Z</date>
+  <millis>1672761940686</millis>
+  <nanos>241600</nanos>
+  <sequence>37</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.749407500Z</date>
+  <millis>1672761940749</millis>
+  <nanos>407500</nanos>
+  <sequence>38</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.812129800Z</date>
+  <millis>1672761940812</millis>
+  <nanos>129800</nanos>
+  <sequence>39</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:40.935046600Z</date>
+  <millis>1672761940935</millis>
+  <nanos>46600</nanos>
+  <sequence>40</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:41.091228200Z</date>
+  <millis>1672761941091</millis>
+  <nanos>228200</nanos>
+  <sequence>41</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:41.153254Z</date>
+  <millis>1672761941153</millis>
+  <nanos>254000</nanos>
+  <sequence>42</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:42.337857Z</date>
+  <millis>1672761942337</millis>
+  <nanos>857000</nanos>
+  <sequence>43</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:42.463349300Z</date>
+  <millis>1672761942463</millis>
+  <nanos>349300</nanos>
+  <sequence>44</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:44.739711100Z</date>
+  <millis>1672761944739</millis>
+  <nanos>711100</nanos>
+  <sequence>45</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:44.987239Z</date>
+  <millis>1672761944987</millis>
+  <nanos>239000</nanos>
+  <sequence>46</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:45.114445900Z</date>
+  <millis>1672761945114</millis>
+  <nanos>445900</nanos>
+  <sequence>47</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.368009100Z</date>
+  <millis>1672761946368</millis>
+  <nanos>9100</nanos>
+  <sequence>48</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.430863700Z</date>
+  <millis>1672761946430</millis>
+  <nanos>863700</nanos>
+  <sequence>49</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.619379600Z</date>
+  <millis>1672761946619</millis>
+  <nanos>379600</nanos>
+  <sequence>50</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.680181Z</date>
+  <millis>1672761946680</millis>
+  <nanos>181000</nanos>
+  <sequence>51</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.711097900Z</date>
+  <millis>1672761946711</millis>
+  <nanos>97900</nanos>
+  <sequence>52</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.741122500Z</date>
+  <millis>1672761946741</millis>
+  <nanos>122500</nanos>
+  <sequence>53</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.772047300Z</date>
+  <millis>1672761946772</millis>
+  <nanos>47300</nanos>
+  <sequence>54</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:46.834193300Z</date>
+  <millis>1672761946834</millis>
+  <nanos>193300</nanos>
+  <sequence>55</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.082139500Z</date>
+  <millis>1672761947082</millis>
+  <nanos>139500</nanos>
+  <sequence>56</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.082139500Z</date>
+  <millis>1672761947082</millis>
+  <nanos>139500</nanos>
+  <sequence>57</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.204959400Z</date>
+  <millis>1672761947204</millis>
+  <nanos>959400</nanos>
+  <sequence>58</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.236857900Z</date>
+  <millis>1672761947236</millis>
+  <nanos>857900</nanos>
+  <sequence>59</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.236857900Z</date>
+  <millis>1672761947236</millis>
+  <nanos>857900</nanos>
+  <sequence>60</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.267775800Z</date>
+  <millis>1672761947267</millis>
+  <nanos>775800</nanos>
+  <sequence>61</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.268778900Z</date>
+  <millis>1672761947268</millis>
+  <nanos>778900</nanos>
+  <sequence>62</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:47.268778900Z</date>
+  <millis>1672761947268</millis>
+  <nanos>778900</nanos>
+  <sequence>63</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:48.513258900Z</date>
+  <millis>1672761948513</millis>
+  <nanos>258900</nanos>
+  <sequence>64</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:48.607171800Z</date>
+  <millis>1672761948607</millis>
+  <nanos>171800</nanos>
+  <sequence>65</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:48.853233300Z</date>
+  <millis>1672761948853</millis>
+  <nanos>233300</nanos>
+  <sequence>66</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:49.383367900Z</date>
+  <millis>1672761949383</millis>
+  <nanos>367900</nanos>
+  <sequence>67</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.Controller.Utils.Score</class>
+  <method>update</method>
+  <thread>28</thread>
+  <message>the score of the player is 2</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:49.384359300Z</date>
+  <millis>1672761949384</millis>
+  <nanos>359300</nanos>
+  <sequence>68</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:49.508305300Z</date>
+  <millis>1672761949508</millis>
+  <nanos>305300</nanos>
+  <sequence>69</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.069175300Z</date>
+  <millis>1672761950069</millis>
+  <nanos>175300</nanos>
+  <sequence>70</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.286626600Z</date>
+  <millis>1672761950286</millis>
+  <nanos>626600</nanos>
+  <sequence>71</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.411580400Z</date>
+  <millis>1672761950411</millis>
+  <nanos>580400</nanos>
+  <sequence>72</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.443460300Z</date>
+  <millis>1672761950443</millis>
+  <nanos>460300</nanos>
+  <sequence>73</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.443460300Z</date>
+  <millis>1672761950443</millis>
+  <nanos>460300</nanos>
+  <sequence>74</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.474285100Z</date>
+  <millis>1672761950474</millis>
+  <nanos>285100</nanos>
+  <sequence>75</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.662674800Z</date>
+  <millis>1672761950662</millis>
+  <nanos>674800</nanos>
+  <sequence>76</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.692492700Z</date>
+  <millis>1672761950692</millis>
+  <nanos>492700</nanos>
+  <sequence>77</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.786295700Z</date>
+  <millis>1672761950786</millis>
+  <nanos>295700</nanos>
+  <sequence>78</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:50.848868600Z</date>
+  <millis>1672761950848</millis>
+  <nanos>868600</nanos>
+  <sequence>79</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:51.067214800Z</date>
+  <millis>1672761951067</millis>
+  <nanos>214800</nanos>
+  <sequence>80</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:51.098941800Z</date>
+  <millis>1672761951098</millis>
+  <nanos>941800</nanos>
+  <sequence>81</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:51.193884800Z</date>
+  <millis>1672761951193</millis>
+  <nanos>884800</nanos>
+  <sequence>82</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:51.381062100Z</date>
+  <millis>1672761951381</millis>
+  <nanos>62100</nanos>
+  <sequence>83</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:51.783754Z</date>
+  <millis>1672761951783</millis>
+  <nanos>754000</nanos>
+  <sequence>84</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:52.122272Z</date>
+  <millis>1672761952122</millis>
+  <nanos>272000</nanos>
+  <sequence>85</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:52.712343700Z</date>
+  <millis>1672761952712</millis>
+  <nanos>343700</nanos>
+  <sequence>86</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:52.772364500Z</date>
+  <millis>1672761952772</millis>
+  <nanos>364500</nanos>
+  <sequence>87</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:53.269093800Z</date>
+  <millis>1672761953269</millis>
+  <nanos>93800</nanos>
+  <sequence>88</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:53.487731Z</date>
+  <millis>1672761953487</millis>
+  <nanos>731000</nanos>
+  <sequence>89</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.Controller.Utils.Score</class>
+  <method>update</method>
+  <thread>28</thread>
+  <message>the score of the player is 3</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:53.487731Z</date>
+  <millis>1672761953487</millis>
+  <nanos>731000</nanos>
+  <sequence>90</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:54.575650Z</date>
+  <millis>1672761954575</millis>
+  <nanos>650000</nanos>
+  <sequence>91</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:54.670478Z</date>
+  <millis>1672761954670</millis>
+  <nanos>478000</nanos>
+  <sequence>92</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:55.163030600Z</date>
+  <millis>1672761955163</millis>
+  <nanos>30600</nanos>
+  <sequence>93</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:55.349393500Z</date>
+  <millis>1672761955349</millis>
+  <nanos>393500</nanos>
+  <sequence>94</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:57.449673400Z</date>
+  <millis>1672761957449</millis>
+  <nanos>673400</nanos>
+  <sequence>95</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:57.889247100Z</date>
+  <millis>1672761957889</millis>
+  <nanos>247100</nanos>
+  <sequence>96</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:57.983149200Z</date>
+  <millis>1672761957983</millis>
+  <nanos>149200</nanos>
+  <sequence>97</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.324157300Z</date>
+  <millis>1672761958324</millis>
+  <nanos>157300</nanos>
+  <sequence>98</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.731179700Z</date>
+  <millis>1672761958731</millis>
+  <nanos>179700</nanos>
+  <sequence>99</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.731179700Z</date>
+  <millis>1672761958731</millis>
+  <nanos>179700</nanos>
+  <sequence>100</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.857291Z</date>
+  <millis>1672761958857</millis>
+  <nanos>291000</nanos>
+  <sequence>101</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.857291Z</date>
+  <millis>1672761958857</millis>
+  <nanos>291000</nanos>
+  <sequence>102</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:58.982102300Z</date>
+  <millis>1672761958982</millis>
+  <nanos>102300</nanos>
+  <sequence>103</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.044286800Z</date>
+  <millis>1672761959044</millis>
+  <nanos>286800</nanos>
+  <sequence>104</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.229038900Z</date>
+  <millis>1672761959229</millis>
+  <nanos>38900</nanos>
+  <sequence>105</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.447153100Z</date>
+  <millis>1672761959447</millis>
+  <nanos>153100</nanos>
+  <sequence>106</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.479068100Z</date>
+  <millis>1672761959479</millis>
+  <nanos>68100</nanos>
+  <sequence>107</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.509424500Z</date>
+  <millis>1672761959509</millis>
+  <nanos>424500</nanos>
+  <sequence>108</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.509424500Z</date>
+  <millis>1672761959509</millis>
+  <nanos>424500</nanos>
+  <sequence>109</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.540562900Z</date>
+  <millis>1672761959540</millis>
+  <nanos>562900</nanos>
+  <sequence>110</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.572293Z</date>
+  <millis>1672761959572</millis>
+  <nanos>293000</nanos>
+  <sequence>111</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.604248200Z</date>
+  <millis>1672761959604</millis>
+  <nanos>248200</nanos>
+  <sequence>112</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:05:59.636161100Z</date>
+  <millis>1672761959636</millis>
+  <nanos>161100</nanos>
+  <sequence>113</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:01.320856800Z</date>
+  <millis>1672761961320</millis>
+  <nanos>856800</nanos>
+  <sequence>114</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:02.076279700Z</date>
+  <millis>1672761962076</millis>
+  <nanos>279700</nanos>
+  <sequence>115</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.Controller.Utils.Score</class>
+  <method>update</method>
+  <thread>28</thread>
+  <message>the score of the player is 4</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:02.076279700Z</date>
+  <millis>1672761962076</millis>
+  <nanos>279700</nanos>
+  <sequence>116</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:02.516611300Z</date>
+  <millis>1672761962516</millis>
+  <nanos>611300</nanos>
+  <sequence>117</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:02.548191900Z</date>
+  <millis>1672761962548</millis>
+  <nanos>191900</nanos>
+  <sequence>118</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.201334300Z</date>
+  <millis>1672761963201</millis>
+  <nanos>334300</nanos>
+  <sequence>119</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.294566300Z</date>
+  <millis>1672761963294</millis>
+  <nanos>566300</nanos>
+  <sequence>120</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.512037200Z</date>
+  <millis>1672761963512</millis>
+  <nanos>37200</nanos>
+  <sequence>121</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.573402700Z</date>
+  <millis>1672761963573</millis>
+  <nanos>402700</nanos>
+  <sequence>122</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.635119100Z</date>
+  <millis>1672761963635</millis>
+  <nanos>119100</nanos>
+  <sequence>123</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.666184700Z</date>
+  <millis>1672761963666</millis>
+  <nanos>184700</nanos>
+  <sequence>124</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.728623500Z</date>
+  <millis>1672761963728</millis>
+  <nanos>623500</nanos>
+  <sequence>125</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.760170300Z</date>
+  <millis>1672761963760</millis>
+  <nanos>170300</nanos>
+  <sequence>126</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.760170300Z</date>
+  <millis>1672761963760</millis>
+  <nanos>170300</nanos>
+  <sequence>127</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.760170300Z</date>
+  <millis>1672761963760</millis>
+  <nanos>170300</nanos>
+  <sequence>128</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.854271700Z</date>
+  <millis>1672761963854</millis>
+  <nanos>271700</nanos>
+  <sequence>129</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.885642200Z</date>
+  <millis>1672761963885</millis>
+  <nanos>642200</nanos>
+  <sequence>130</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:03.980095400Z</date>
+  <millis>1672761963980</millis>
+  <nanos>95400</nanos>
+  <sequence>131</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:04.011012800Z</date>
+  <millis>1672761964011</millis>
+  <nanos>12800</nanos>
+  <sequence>132</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:04.073208400Z</date>
+  <millis>1672761964073</millis>
+  <nanos>208400</nanos>
+  <sequence>133</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:04.073208400Z</date>
+  <millis>1672761964073</millis>
+  <nanos>208400</nanos>
+  <sequence>134</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>Game.Model.Shapes.ImageObject is broken</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:04.923864600Z</date>
+  <millis>1672761964923</millis>
+  <nanos>864600</nanos>
+  <sequence>135</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.View.OnePiece</class>
+  <method>refresh</method>
+  <thread>28</thread>
+  <message>clown got Game.Model.Shapes.ImageObject</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:06.266093200Z</date>
+  <millis>1672761966266</millis>
+  <nanos>93200</nanos>
+  <sequence>136</sequence>
+  <logger>Game.Controller.Logging</logger>
+  <level>INFO</level>
+  <class>Game.Controller.Utils.Score</class>
+  <method>update</method>
+  <thread>28</thread>
+  <message>the score of the player is 5</message>
+</record>
+<record>
+  <date>2023-01-03T16:06:06.267094200Z</date>
+  <millis>1672761966267</millis>
+  <nanos>94200</nanos>
+  <sequence>137</sequence>
   <logger>Game.Controller.Logging</logger>
   <level>INFO</level>
   <class>Game.View.OnePiece</class>
