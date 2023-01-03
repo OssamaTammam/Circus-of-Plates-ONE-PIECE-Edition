@@ -1,28 +1,32 @@
 package Game.Model.Shapes;
 
+/**
+ * Strategy Design Pattern
+ * This class is responsible for the state of the shapes
+ */
 public class ShapeState {
-    private double speed;
+    private double fallingSpeed; //Falling speed of the shape
 
-    public ShapeState(double speed) {
-        this.speed = speed;
+    public ShapeState(double fallingSpeed) {
+        this.fallingSpeed = fallingSpeed;
     }
 
-    public double getSpeed() {
-        return speed;
+    /**
+     * Move the shape vertically by constantly adding the speed to the Y coordinate
+     *
+     * @param shape falling shape
+     */
+    public void move(ImageObject shape) {
+        int y = shape.getY();
+        int newY = (int) Math.round(y + fallingSpeed);
+        shape.setY(newY);
     }
 
-    public void setSpeed(double speed) {
-        this.speed = speed;
+    public double getFallingSpeed() {
+        return fallingSpeed;
     }
 
-    public void move(ImageObject s) {
-        int y = s.getY();
-        int newY = (int) Math.round(y + speed);
-        s.setY(newY);
-    }
-
-
-    public ShapeState clone() {
-        return new ShapeState(speed);
+    public void setFallingSpeed(double fallingSpeed) {
+        this.fallingSpeed = fallingSpeed;
     }
 }

@@ -3,12 +3,21 @@ package Game.Controller;
 import javax.sound.sampled.*;
 import java.io.IOException;
 
+/**
+ * This class is responsible for playing the audio of the game
+ */
 public class Audio {
     Clip clip;
 
-    public void playMusic(String audioLocation) {
+    /**
+     * Play the audio of the game
+     *
+     * @param audioName Path of the audio file
+     */
+    public void playMusic(String audioName) {
+
         try {
-            AudioInputStream input = AudioSystem.getAudioInputStream(getClass().getClassLoader().getResourceAsStream(audioLocation));
+            AudioInputStream input = AudioSystem.getAudioInputStream(getClass().getClassLoader().getResourceAsStream(audioName));
             clip = AudioSystem.getClip();
             clip.open(input);
             clip.start();

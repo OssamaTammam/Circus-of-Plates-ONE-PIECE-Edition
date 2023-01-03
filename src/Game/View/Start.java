@@ -9,20 +9,24 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * This class is responsible for starting the game
+ */
 public class Start {
-    ;
     int level;
     Boolean first = true;
-    MyWorld myWorld;
+    OnePiece onePiece;
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-    Audio ad = new Audio();
-    String adPath = "Circus.wav";
+    Audio audio = new Audio();
+    String audioName = "Circus.wav";
     public static GameEngine.GameController gameController;
 
-    public void call() {
+    /**
+     * This method is responsible for creating the game screen
+     */
+    public void callGame() {
         Logging log = new Logging();
         JMenuBar menuBar = new JMenuBar();
-        ;
         JMenu menu = new JMenu("File");
         JMenuItem newMenuItem = new JMenuItem("New");
         JMenuItem pauseMenuItem = new JMenuItem("Pause");
@@ -33,58 +37,60 @@ public class Start {
         menu.add(resumeMenuItem);
         menuBar.add(menu);
 
-
         if (first) {
-            ad.playMusic(adPath);
+            audio.playMusic(audioName);
             first = false;
-            gameController = GameEngine.start("Circus Of Plates", myWorld, menuBar);
+            gameController = GameEngine.start("Circus Of Plates", onePiece, menuBar);
         } else {
-            ad.stop();
-            ad.playMusic(adPath);
-            gameController.changeWorld(myWorld);
+            audio.stop();
+            audio.playMusic(audioName);
+            gameController.changeWorld(onePiece);
         }
         newMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 setLevel(level);
-                ad.stop();
-                ad.playMusic(adPath);
-                gameController.changeWorld(myWorld);
+                audio.stop();
+                audio.playMusic(audioName);
+                gameController.changeWorld(onePiece);
             }
         });
         pauseMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gameController.pause();
-                ad.stop();
+                audio.stop();
                 log.help().info("the game is paused");
-
             }
         });
         resumeMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gameController.resume();
-                ad.resume();
+                audio.resume();
                 log.help().info("the game is resumed");
-
             }
         });
     }
 
+    /**
+     * This method is responsible for setting the level of the game
+     *
+     * @param level the level of the game
+     */
     public void setLevel(int level) {
         this.level = level;
         if (level == 1)
-            myWorld = new MyWorld((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 10, 6, 5, 1, 3, this);
+            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 10, 6, 5, 1, 3, this);
         else if (level == 2)
-            myWorld = new MyWorld((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 15, 8, 5, 2, 4, this);
+            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 15, 8, 5, 2, 4, this);
         else if (level == 3)
-            myWorld = new MyWorld((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 20, 10, 2, 3, 5, this);
+            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 20, 10, 2, 3, 5, this);
         else {
-            ad.stop();
-            Main.frame.setVisible(true);
+            audio.stop();
+            Main.mainMenu.setVisible(true);
             return;
         }
-        call();
+        callGame();
     }
 }

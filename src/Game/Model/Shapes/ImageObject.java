@@ -7,8 +7,11 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
+/**
+ * This class is responsible for creating the objects using images
+ */
 public class ImageObject implements GameObject, Shape {
-    protected BufferedImage[] images;
+    protected BufferedImage[] images; // The images of the object
     protected int x;
     protected int y;
     protected boolean visible;
@@ -16,26 +19,17 @@ public class ImageObject implements GameObject, Shape {
     protected int height;
     private ShapeState state;
 
-    public ImageObject(int x, int y, String path, int width, int height) {
+    public ImageObject(int x, int y, String imageName, int width, int height) {
         this.x = x;
         this.y = y;
         try {
-            images = new BufferedImage[]{createResizedCopy(ImageIO.read(getClass().getClassLoader().getResourceAsStream(path)), width, height, false)};
+            images = new BufferedImage[]{createResizedCopy(ImageIO.read(getClass().getClassLoader().getResourceAsStream(imageName)), width, height, false)};
         } catch (IOException e) {
             e.printStackTrace();
         }
         visible = true;
         this.height = height;
         this.width = width;
-    }
-
-    public ImageObject(int x, int y, BufferedImage[] images) {
-        this.x = x;
-        this.y = y;
-        this.images = images;
-        visible = true;
-        width = images[0].getWidth();
-        height = images[0].getHeight();
     }
 
     @Override
@@ -96,24 +90,10 @@ public class ImageObject implements GameObject, Shape {
         return scaledBI;
     }
 
-    public void resize(int newW, int newH) {
-        Image tmp = images[0].getScaledInstance(newW, newH, Image.SCALE_SMOOTH);
-        BufferedImage dimg = new BufferedImage(newW, newH, BufferedImage.TYPE_INT_ARGB);
-
-        Graphics2D g2d = dimg.createGraphics();
-        g2d.drawImage(tmp, 0, 0, null);
-        g2d.dispose();
-
-        this.height = newH;
-        this.width = newW;
-        images[0] = dimg;
-    }
-
     @Override
     public void setVisible(boolean visible) {
         this.visible = visible;
     }
-
 
     @Override
     public void move() {
@@ -129,18 +109,5 @@ public class ImageObject implements GameObject, Shape {
         this.state = state;
     }
 
-    @Override
-    public int getScreenWidth() {
-        return 0;
-    }
-
-    @Override
-    public int getScreenHeight() {
-        return 0;
-    }
-
-    @Override
-    public void setRandomImage() {
-    }
 }
 

@@ -1,14 +1,17 @@
 package Game.Controller.Factories;
 
 import Game.Model.Shapes.ImageObject;
-import Game.Controller.Logging;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
 
+/**
+ * Factory Design Pattern & Singleton Design Pattern
+ * This class is responsible for creating the shapes that will be used in the game
+ * It is a singleton class because we only need one instance of it
+ */
 public class ShapeFactory {
     public static ShapeFactory instance;
-    Logging log = new Logging();
 
     /**
      * Singleton Design Pattern
@@ -22,17 +25,33 @@ public class ShapeFactory {
         return instance;
     }
 
-    public GameObject getRandomImage(int posX, int posY, int screenWidth, int screenHeight) {
+    /**
+     * Generate a random plate that will be used in the game
+     *
+     * @param posX   X coordinate f the shape
+     * @param posY   Y coordinate of the image
+     * @param width  width of the image
+     * @param height height of the image
+     * @return GameObject plate that will be used in the game
+     */
+    public GameObject getRandomImage(int posX, int posY, int width, int height) {
 
         int imgNum = (int) (Math.random() * 3 + 1);
         String imgName = "plate" + imgNum + ".png";
-        ImageObject plate = new ImageObject(posX, posY, imgName, screenWidth, screenHeight);
-        plate.resize(50, 40);
+        ImageObject plate = new ImageObject(posX, posY, imgName, width, height);
+        // plate.resize(50, 40);
         return plate;
     }
 
+    /**
+     * Compares Images by Resolution and By RGB of every Pixel
+     *
+     * @param a GameObject
+     * @param b GameObject
+     * @return boolean true if every pixel in both images is the same
+     */
     public boolean isSame(GameObject a, GameObject b) {
-        // Compares Images by Resolution and By RGB of every Pixel
+
         BufferedImage imageA = a.getSpriteImages()[0];
         BufferedImage imageB = b.getSpriteImages()[0];
         if (imageA.getWidth() == imageB.getWidth() && imageA.getHeight() == imageB.getHeight()) {

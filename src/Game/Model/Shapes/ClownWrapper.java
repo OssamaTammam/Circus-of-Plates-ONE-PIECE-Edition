@@ -1,30 +1,31 @@
 package Game.Model.Shapes;
 
-import Game.View.MyWorld;
+import Game.View.OnePiece;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ClownWrapper implements GameObject {
-    List<Clown> list = new ArrayList<>();
+    List<Clown> clowns = new ArrayList<>();
     int width;
     int x;
-    MyWorld world;
+    OnePiece onePiece;
 
-    public ClownWrapper(int width, MyWorld world) {
-        this.world = world;
+    public ClownWrapper(int width, OnePiece world) {
+        this.onePiece = world;
         this.width = width;
         this.x = (int) Math.round(width / 2.0);
     }
 
     public void addClown(Clown clown) {
-        list.add(clown);
+        clowns.add(clown);
     }
 
     public List<Clown> getClowns() {
-        return list;
+        return clowns;
     }
 
     @Override
@@ -32,20 +33,33 @@ public class ClownWrapper implements GameObject {
         return x;
     }
 
+
+    /**
+     * Changes the X coordinate of the clown wrapper
+     *
+     * @param x new X coordinate
+     */
     @Override
     public void setX(int x) {
-        int vec = x - this.x;
-        Clown left = list.get(0);
-        Clown right = list.get(list.size() - 1);
+        int vec = x - this.x; //Vector of the change in X
+
+        Clown leftClown = clowns.get(0);
+        Clown rightClown = clowns.get(clowns.size() - 1);
+
         //بتخلي سانجي تفضل ع نفس المسافة من بعضها
-        if (left.getMaxLeft() + (x - this.x) <= 0) {
-            vec = (-left.getMaxLeft());
-        } else if (right.getMaxRight() + (x - this.x) >= width) {
-            vec = width - (right.getMaxRight());
+        //Keeps clown wrapper in frame
+        if (leftClown.getMaxLeft() + vec <= 0) {
+            vec = (-leftClown.getMaxLeft());
+        } else if (rightClown.getMaxRight() + vec >= width) {
+            vec = width - (rightClown.getMaxRight());
         }
-        for (Clown c : list) {
+
+        //Moves all clowns in the wrapper
+        for (Clown c : clowns) {
             c.setX(c.getX() + vec);
         }
+
+        //Moves the wrapper
         this.x += vec;
     }
 
@@ -55,8 +69,11 @@ public class ClownWrapper implements GameObject {
         return new BufferedImage[]{new BufferedImage(1, 1, 1)};
     }
 
+    /**
+     * Adds all clowns in the wrapper & the wrapper to the world
+     */
     public void addToWorld() {
-        world.getControlableObjects().add(this);
+        onePiece.getControlableObjects().add(this);
         for (Clown c : getClowns()) {
             c.addToWorld();
         }

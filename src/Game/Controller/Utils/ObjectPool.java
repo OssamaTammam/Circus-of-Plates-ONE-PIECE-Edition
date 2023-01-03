@@ -5,48 +5,62 @@ import Game.Model.Shapes.ImageObject;
 import Game.Model.Shapes.ShapeState;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.LinkedList;
+import java.util.List;
 
+/**
+ * Object Pool Design Pattern
+ * This class is responsible for creating the shapes that will be used in the game
+ */
 public class ObjectPool {
-    private int width;
-    private int height;
-    private double averageVelocity;
-    private HashMap<GameObject, Long> inUse;
-    private HashMap<GameObject, Long> available;
+    private int screenWidth;
+    private int screenHeight;
+    private double averageVelocity; //Average falling velocity of the shapes
+    private List<GameObject> inUse; //Shapes that are currently in use
+    private List<GameObject> available; //Shapes that are currently on standby
 
     public ObjectPool(int screenWidth, int screenHeight, double averageVelocity) {
-        inUse = new HashMap<>();
-        available = new HashMap<>();
-        this.width = screenWidth;
-        this.height = screenHeight;
+
+        inUse = new LinkedList<>();
+        available = new LinkedList<>();
+        this.screenWidth = screenWidth;
+        this.screenHeight = screenHeight;
         this.averageVelocity = averageVelocity;
     }
 
+    /**
+     * Get a shape from the pool whether it's new or reused from the available list
+     *
+     * @return GameObject plate that will be used in the game
+     */
     public synchronized GameObject getPlate() {
-        long now = System.currentTimeMillis();
-        //Reuse shapes
+
+        //Reuse shapes from the available list
         if (!available.isEmpty()) {
-            for (Map.Entry<GameObject, Long> entry : available.entrySet()) {
-                GameObject plate = entry.getKey();
-                ((ImageObject) plate).setState(new ShapeState(averageVelocity));
-                plate.setX((int) (Math.random() * width));
-                plate.setY((int) (Math.random() * height / 2) - this.height);
-                available.remove(plate);
-                inUse.put(plate, now);
-                return plate;
+
+            for (GameObject availablePlate : available) {
+
+                availablePlate.setX((int) (Math.random() * screenWidth));
+                availablePlate.setY((int) (Math.random() * screenHeight / 2) - this.screenHeight);
+                available.remove(availablePlate);
+                inUse.add(availablePlate);
+                return availablePlate;
             }
         }
-        GameObject plate = ShapeFactory.getInstance().getRandomImage((int) Math.random() * width, (int) (Math.random() * height / 3), width, height);
-        ((ImageObject) plate).setState(new ShapeState(averageVelocity));
-        plate.setX((int) (Math.random() * width));
-        plate.setY((int) (Math.random() * height / 2) - this.height);
-        inUse.put(plate, now);
-        return plate;
+
+        GameObject newPlate = ShapeFactory.getInstance().getRandomImage((int) (Math.random() * screenWidth), (int) (Math.random() * screenHeight / 3) - this.screenHeight, 50, 40);
+        ((ImageObject) newPlate).setState(new ShapeState(averageVelocity));
+        inUse.add(newPlate);
+        return newPlate;
     }
 
-    public void releaseShape(GameObject sh) {
-        available.put(sh, System.currentTimeMillis());
-        inUse.remove(sh);
+    /**
+     * Return a shape to the pool
+     *
+     * @param plate GameObject to be returned to the pool
+     */
+    public void releaseShape(GameObject plate) {
+        available.add(plate);
+        inUse.remove(plate);
     }
 }
