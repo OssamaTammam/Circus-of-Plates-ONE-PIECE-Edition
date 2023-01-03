@@ -18,6 +18,7 @@ public class Start {
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     Audio audio = new Audio();
     String audioName = "Circus.wav";
+    String heeHee = "heehee.wav";
     public static GameEngine.GameController gameController;
 
     /**
@@ -36,7 +37,10 @@ public class Start {
         menuBar.add(menu);
 
         if (first) {
-            audio.playMusic(audioName);
+            if (level == 5)
+                audio.playMusic(heeHee);
+            else
+                audio.playMusic(audioName);
             first = false;
             gameController = GameEngine.start("Circus Of Plates", onePiece, menuBar);
         } else {
@@ -77,11 +81,15 @@ public class Start {
     public void setLevel(int level) {
         this.level = level;
         if (level == 1)
-            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 10, 6, 5, 1, 3, this);
+            onePiece = new OnePiece((int) (.98 * screenSize.getWidth()), (int) (.85 * screenSize.getHeight()), 10, 6, 5, 1, 3, this);
         else if (level == 2)
-            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 15, 8, 5, 2, 4, this);
+            onePiece = new OnePiece((int) (.98 * screenSize.getWidth()), (int) (.85 * screenSize.getHeight()), 15, 8, 5, 2, 4, this);
         else if (level == 3)
-            onePiece = new OnePiece((int) (0.75 * screenSize.getWidth()), (int) (0.75 * screenSize.getHeight()), 20, 10, 2, 3, 5, this);
+            onePiece = new OnePiece((int) (.98 * screenSize.getWidth()), (int) (.85 * screenSize.getHeight()), 20, 10, 2, 3, 5, this);
+        else if (level == 4)
+            onePiece = new OnePiece((int) (.98 * screenSize.getWidth()), (int) (.85 * screenSize.getHeight()), 25, 12, 2, 4, 6, this);
+        else if (level == 5)
+            onePiece = new OnePiece((int) (.98 * screenSize.getWidth()), (int) (.85 * screenSize.getHeight()), 50, 14, 1, 4, 7, this);
         else {
             audio.stop();
             Main.mainMenu.setVisible(true);

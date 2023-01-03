@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Random;
 
 public class OnePiece implements World {
-    private static int MAX_TIME = 90 * 1000;    // 1.5 minutes
+    private static int MAX_TIME = 95 * 1000;    // 1.5 minutes
     private Score score;
     private long startTime = System.currentTimeMillis();
     private final int screenWidth;

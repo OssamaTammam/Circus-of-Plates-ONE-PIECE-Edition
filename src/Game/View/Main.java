@@ -13,10 +13,6 @@ public class Main {
 
     public static void main(String[] args) {
         Start start = new Start();
-        HashMap<String, Integer> levels = new HashMap<>();
-        levels.put("Easy", 3);
-        levels.put("Medium", 5);
-        levels.put("Hard", 7);
         mainMenu = new JFrame();
         mainMenu.setBounds(100, 100, 306, 329);
         mainMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,23 +29,35 @@ public class Main {
         }
         mainMenu.getContentPane().add(mainMenuBackground);
         JButton easyButton = new JButton("Easy");
-        easyButton.setBounds(50, 85, 126, 27);
+        easyButton.setBounds(50, 65, 126, 27);
         easyButton.setForeground(new Color(255, 255, 0));
         easyButton.setBackground(new Color(51, 102, 153));
 
         JButton mediumButton = new JButton("Medium");
-        mediumButton.setBounds(50, 125, 126, 27);
+        mediumButton.setBounds(50, 105, 126, 27);
         mediumButton.setForeground(new Color(255, 255, 0));
         mediumButton.setBackground(new Color(51, 102, 153));
 
         JButton hardButton = new JButton("Hard");
-        hardButton.setBounds(50, 165, 126, 27);
+        hardButton.setBounds(50, 145, 126, 27);
         hardButton.setForeground(new Color(255, 255, 0));
         hardButton.setBackground(new Color(51, 102, 153));
+
+        JButton veryHardButton = new JButton("Very Hard");
+        veryHardButton.setBounds(50, 185, 126, 27);
+        veryHardButton.setForeground(new Color(255, 255, 0));
+        veryHardButton.setBackground(new Color(51, 102, 153));
+
+        JButton heeHeeButton = new JButton("HEE HEE");
+        heeHeeButton.setBounds(50, 225, 126, 27);
+        heeHeeButton.setForeground(new Color(255, 255, 0));
+        heeHeeButton.setBackground(new Color(51, 102, 153));
 
         mainMenu.getContentPane().add(easyButton, 0);
         mainMenu.getContentPane().add(mediumButton, 0);
         mainMenu.getContentPane().add(hardButton, 0);
+        mainMenu.getContentPane().add(veryHardButton, 0);
+        mainMenu.getContentPane().add(heeHeeButton, 0);
 
         mainMenu.setVisible(true);
         easyButton.addActionListener(new ActionListener() {
@@ -70,6 +78,20 @@ public class Main {
             public void actionPerformed(ActionEvent e) {
                 mainMenu.setVisible(false);
                 start.setLevel(3);
+
+            }
+        });
+        veryHardButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                mainMenu.setVisible(false);
+                start.setLevel(4);
+
+            }
+        });
+        heeHeeButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                mainMenu.setVisible(false);
+                start.setLevel(5);
 
             }
         });
