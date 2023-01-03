@@ -29,6 +29,7 @@ public class ObjectPool {
     }
 
     /**
+     * Iterator Design Pattern
      * Get a shape from the pool whether it's new or reused from the available list
      *
      * @return GameObject plate that will be used in the game
@@ -38,8 +39,10 @@ public class ObjectPool {
         //Reuse shapes from the available list
         if (!available.isEmpty()) {
 
-            for (GameObject availablePlate : available) {
+            GameObjectIterator availablePlateIterator = new GameObjectIterator(available); //Iterates over the available shapes
+            while (availablePlateIterator.hasNext()) {
 
+                GameObject availablePlate = availablePlateIterator.next();
                 availablePlate.setX((int) (Math.random() * screenWidth));
                 availablePlate.setY((int) (Math.random() * screenHeight / 2) - this.screenHeight);
                 available.remove(availablePlate);
