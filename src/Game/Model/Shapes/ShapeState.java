@@ -1,7 +1,7 @@
 package Game.Model.Shapes;
 
 /**
- * Strategy Design Pattern
+ * State Design Pattern
  * This class is responsible for the state of the shapes
  */
 public class ShapeState {
