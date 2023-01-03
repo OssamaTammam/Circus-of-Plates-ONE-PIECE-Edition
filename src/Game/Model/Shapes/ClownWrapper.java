@@ -91,7 +91,7 @@ public class ClownWrapper implements GameObject {
 
     @Override
     public int getWidth() {
-        return width;
+        return 0;
     }
 
     @Override
