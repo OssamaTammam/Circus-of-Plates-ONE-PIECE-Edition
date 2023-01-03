@@ -1,7 +1,5 @@
 package Game.Controller.Utils;
 
-import Game.Controller.Logging;
-
 import java.util.Observable;
 import java.util.Observer;
 
@@ -10,7 +8,6 @@ import java.util.Observer;
  * This class is responsible for updating the score of the game
  */
 public class Score implements Observer {
-    Logging log = new Logging();
     int score = 0;
     int maxScore;
     boolean won;
@@ -30,7 +27,6 @@ public class Score implements Observer {
         score++;
         if (score == maxScore)
             won = true;
-        log.help().info("the score of the player is " + score);
     }
 
     public int getScore() {

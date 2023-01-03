@@ -1,7 +1,6 @@
 package Game.View;
 
 import Game.Controller.Audio;
-import Game.Controller.Logging;
 import eg.edu.alexu.csd.oop.game.GameEngine;
 
 import javax.swing.*;
@@ -25,7 +24,6 @@ public class Start {
      * This method is responsible for creating the game screen
      */
     public void callGame() {
-        Logging log = new Logging();
         JMenuBar menuBar = new JMenuBar();
         JMenu menu = new JMenu("File");
         JMenuItem newMenuItem = new JMenuItem("New");
@@ -60,7 +58,6 @@ public class Start {
             public void actionPerformed(ActionEvent e) {
                 gameController.pause();
                 audio.stop();
-                log.help().info("the game is paused");
             }
         });
         resumeMenuItem.addActionListener(new ActionListener() {
@@ -68,7 +65,6 @@ public class Start {
             public void actionPerformed(ActionEvent e) {
                 gameController.resume();
                 audio.resume();
-                log.help().info("the game is resumed");
             }
         });
     }

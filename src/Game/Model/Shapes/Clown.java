@@ -99,9 +99,7 @@ public class Clown extends ImageObject {
         GameObject top = stack.get(size - 2);
         GameObject secondTop = stack.get(size - 3);
 
-        if (ShapeFactory.getInstance().isSame(plate, top) && ShapeFactory.getInstance().isSame(plate, secondTop))
-            return true;
-        return false;
+        return ShapeFactory.getInstance().isSame(plate, top) && ShapeFactory.getInstance().isSame(plate, secondTop);
     }
 
     /**

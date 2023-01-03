@@ -1,6 +1,5 @@
 package Game.View;
 
-import Game.Controller.Logging;
 import Game.Model.Shapes.Clown;
 import Game.Model.Shapes.ClownWrapper;
 import Game.Model.Shapes.ImageObject;
@@ -30,7 +29,6 @@ public class OnePiece implements World {
     private Random rand = new Random();
     private int nClowns; // Number of clowns
     private Start start;
-    Logging log = new Logging();
 
     public OnePiece(int screenWidth, int screenHeight, int activeCount, double averageVelocity, int waveTime, int nClowns, int maxScore, Start start) {
         this.screenWidth = screenWidth;
@@ -91,7 +89,6 @@ public class OnePiece implements World {
                 if (clown.checkIntersectAndAdd(fallingObject)) {
                     activeCount++;
                     toRemove.add(fallingObject);
-                    log.help().info("clown got " + s.getClass().getName());
                 }
             }
         }
@@ -111,7 +108,6 @@ public class OnePiece implements World {
                 toRemove.add(m);
                 objectPool.releaseShape(m);
                 activeCount++;
-                log.help().info(((ImageObject) m).getClass().getName() + " is broken");
             }
         }
 
