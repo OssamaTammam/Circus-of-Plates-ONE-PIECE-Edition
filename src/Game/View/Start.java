@@ -45,7 +45,10 @@ public class Start {
             gameController = GameEngine.start("Circus Of Plates", onePiece, menuBar);
         } else {
             audio.stop();
-            audio.playMusic(audioName);
+            if (level == 5)
+                audio.playMusic(heeHee);
+            else
+                audio.playMusic(audioName);
             gameController.changeWorld(onePiece);
         }
         newMenuItem.addActionListener(new ActionListener() {
