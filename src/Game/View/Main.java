@@ -48,10 +48,13 @@ public class Main {
         veryHardButton.setForeground(new Color(255, 255, 0));
         veryHardButton.setBackground(new Color(51, 102, 153));
 
-        JButton heeHeeButton = new JButton("HEE HEE");
+        JButton heeHeeButton = new JButton("");
         heeHeeButton.setBounds(50, 225, 126, 27);
         heeHeeButton.setForeground(new Color(255, 255, 0));
         heeHeeButton.setBackground(new Color(51, 102, 153));
+        heeHeeButton.setOpaque(false);
+        heeHeeButton.setContentAreaFilled(false);
+        heeHeeButton.setBorderPainted(false);
 
         mainMenu.getContentPane().add(easyButton, 0);
         mainMenu.getContentPane().add(mediumButton, 0);
