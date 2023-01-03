@@ -1,7 +1,9 @@
-package Game.Controller;
+package Game.Controller.Utils;
 
 import javax.sound.sampled.*;
+import java.io.BufferedInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * This class is responsible for playing the audio of the game
@@ -17,7 +19,8 @@ public class Audio {
     public void playMusic(String audioName) {
 
         try {
-            AudioInputStream input = AudioSystem.getAudioInputStream(getClass().getClassLoader().getResourceAsStream(audioName));
+            InputStream audioSource = getClass().getClassLoader().getResourceAsStream(audioName);
+            AudioInputStream input = new BufferedInputStream(audioSource) != null ? AudioSystem.getAudioInputStream(new BufferedInputStream(audioSource)) : null;
             clip = AudioSystem.getClip();
             clip.open(input);
             clip.start();
